@@ -1,0 +1,708 @@
+---
+title: "Java 基础"
+date: 2020-12-15T08:32:26+08:00
+author: "罗泽勋"
+tags: [
+    "java基础",
+]
+categories: [
+    "Java",
+]
+---
+参考自 [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20%E5%9F%BA%E7%A1%80.md)
+* [一、数据类型](#1)
+    * [基本类型](#1.1)
+    * [包装类型](#1.2)
+    * [缓存池](#1.3)
+* [二、String](#2)
+    * [概述](#2.1)
+    * [不可变的好处](#2.2)
+    * [String,StringBuffer and StringBuilder](#2.3)
+    * [StringPoll](#2.4)
+    * [new String("abc")](#2.5)
+* [三、运算](#3)
+    * [参数传递](#3.1)
+    * [float与double](#3.2)
+    * [隐式类型转换](#3.3)
+    * [switch](#3.4)
+* [四、关键字](#4)
+    * [final](#4.1)
+    * [static](#4.2)
+* [五、Object通用方法](#5)
+    * [概览](#5.1)
+    * [equals()](#5.2)
+    * [hashCode()](#5.3)
+    * [toString()](#5.4)
+    * [clone()](#5.5)
+* [六、继承](#6)
+    * [访问权限](#6.1)
+    * [抽象类和接口](#6.2)
+    * [super](#6.3)
+    * [重载和重写](#6.4)
+* [七、反射](#7)
+* [八、异常](#8)
+* [九、泛型](#9)
+* [十、注解](#10)
+* [十一、特性](#11)
+
+### 一、数据类型 <a name="1"></a>
+
+#### 基本类型 <a name="1.1"></a>
+* byte/8
+* char/16
+* short/16
+* int/32
+* float/32
+* long/64
+* double/64
+* boolean/~
+
+boolean 只有两个值：true、flase,可以使用 1 bit 来存储，但是具体大小没有明确规定。JVM 会在编译时期将 boolean 类型的数据转换为 int，使用 1 来表示 true， 0 表示 false。JVM 支持 boolean 数组，但是是通过读写 byte 数组来实现的。  
+
+#### 包装类型 <a name="1.2"></a>
+基本类型都有对应的包装类型，基本类型与其对应的包装类型之间的赋值使用自动装箱和拆箱完成。  
+```
+Integer x = 2;  //装箱 调用了 Integer.valueOf(2)
+int y = x;  //  拆箱 调用了 x.intValue()
+```
+#### 缓存池 <a name="1.3"></a>
+new Integer(123) 与 Integer.valueOf(123)的区别在于：
+
+* new Integer(123) 每次都会创建一个对象；
+* Integer.valueOf(123) 会使用缓存池中的对象，调用会取得同一个对象的引用。
+
+```
+Integer x = new Integer(123);
+Integer y = new Integer(123);
+System.out.println(x == y);     //false
+Integer z = Integer.valueOf(123);
+Integer k = Integer.valueOf(123);
+System.out.println(z == k);     //true
+```
+valueOf() 方法的实现，就是先判断值是否存在缓存池中，如果在的话就直接返回缓存池的内容。
+```
+public static Integer valueOf(int i){
+    if(i >= IntegerCache.low && i <= IntegerCache.high){
+        return IntegerCache.cache[i + (-IntegerCache.low)];
+        return new Integer(i);
+    }
+}
+```
+在 Java 8 中，Integer 缓存池的大小默认为 -128~127。  
+  
+编译器会在自动装箱过程中调用 valueOf()方法，因此多个值相同且值在缓存池范围内的 Integer 实例使用自动装箱来创建，那么就会引用相同的对象。  
+```
+Integer m = 123;
+Integer n = 123;
+System.out.priintln(m == n);    //true
+```
+基本类型对应的缓冲池如下：
+* boolean values true and false
+* all byte values
+* short values between -128 and 127
+* int values between -128 and 127
+* char in the range \u0000 to \u007F
+
+在使用这些基本类型对应的包装类型时，如果该数值范围在缓冲范围内，就可以直接使用缓冲池中的对象。  
+在 JDK 1.8 所有的数值类型缓冲池中，Integer 的缓冲池 IntegerCache 很特殊，这个缓冲池的下界是 -128，上界默认是 127，但是这个上界是可以调的，在启动 JVM 的时候，通过 `-XX:AutoBoxCacheMax=<size>` 来指定 IntegerCache 的大小，该选项在 JVM 初始化的时候会设定一个名为 `java.lang.IntegerCache.high` 系统属性，然后 IntegerCache 初始化的时候就会读取该系统属性来决定上界。
+
+### 二、String <a name="2"></a>
+
+#### 概览<a name="2.1"></a>
+String 被声明为 final,因此不可被继承。(Integer 等包装类也不能被继承)  
+在 Java 8 中，String 内部使用 char 数组存储数据。  
+```
+public final class String 
+    implements java.io.Serializable, Comparable<String>, CharSequence {
+    private final char value[];   
+}
+```
+
+在 Java 9 之后，String 类的实现改用 byte 数组存储字符串，同时使用 `coder` 来标识使用的编码。
+
+```
+public final class String
+    implements java.io.Serializable, Comparable<String>, CharSequence {
+        private final byte[] value;
+        private final byte coder;
+    }
+```
+value 数组被声明为 final，这意味着 value 数组初始化之后就不能在引用其他数组，并且 String 内部没有改变 value 数组的方法。这些表明 String 不能更改的约束规范。实际上可以通过反射来修改 String 内部 value 数组的值，但是这样的做法毫无意义，而且会引发错误。
+
+#### 不可变的好处<a name="2.2"></a>
+1.可以缓存 hash 值
+  
+因为 String 的 hash 值经常被使用，例如 String 用做 HashMap 的 key。不可变的特性使得 hash 值也不可变，因此只需要进行一次计算。  
+  
+2.String Pool 的需要  
+  
+如果一个 String 对象已经被创建过了，那么就会从 String Pool 中取得引用。只有 String 是不可变的，才可能使用 String Pool。  
+  
+3.安全性  
+  
+String 经常作为参数，String 不可变性可以保证参数不可变。  
+  
+4.线程安全  
+  
+String 不可变性天生具备线程安全，可以在多个线程中安全使用。  
+
+
+#### String,StringBuffer,and StringBuilder<a name="2.3"></a>
+1.可变性
+
+* String 不可变
+* StringBuffer 和 StringBuilder 可变
+
+2.线程安全
+
+* String 不可变，因此是线程安全的
+* StringBuilder 不是线程安全的
+* StringBuffer 是线程安全的，内部使用 synchronized 进行同步
+
+#### String Pool<a name="2.4"></a>
+字符串常量池(String Pool) 保存着所有字符串字面量(literal strings) ,这些字面量在编译时期就确定。不仅如此，还可以使用 String 的 intern() 方法在运行过程将字符串添加到 String Pool中。  
+当一个字符串调用 intern() 方法时，如果 String Pool 中已存在一个字符串和该字符串相等(使用 equals() 方法进行确定)，那么就会返回 String Pool 中字符串的引用；否则，就会在 String Poll 中添加一个新的字符串，并返回这个新字符串的引用。  
+```
+String s1 = new String("aaa");
+String s2 = new String("aaa");
+System.out.println(s1 == s2);    //false
+String s3 = s1.intern();
+String s4 = s2.intern();
+System.out.println(s3 == s4);   //true
+```
+如果是采用 "bbb" 这种字面量的形式创建字符串，会自动将字符串放入 String Pool 中。  
+```
+String s5 = "bbb";
+String s6 = "bbb";
+System.out.println(s5 == s6);   //true
+```
+在 Java 7 之前，String Pool被放在运行时常量池中，它属于永久代。而在 Java 7 ，String Pool 被移到堆中。这是因为永久代的空间有限，在大量使用字符串的场景下会导致 OutOfMemoryError 错误。  
+
+#### new String("abc")<a name="2.5"></a>
+使用这种方式一共会创建两个字符串对象（前提是 String Pool  中还没有 "abc" 字符串对象）。  
+* "abc" 属于字符串字面量，因此在编译时期会在 String Pool 中创建一个字符串对象，指向这个 "abc" 字符串字面量。   
+* 而使用 new 的方式会在堆中创建一个字符串对象。  
+创建一个测试类，其 main 方法中使用这种方式来创建字符串对象。
+``` 
+    public class NewStringTest {
+        public static void main(String[] args){
+            String s = new String("abc");
+        }
+    }
+```
+使用 javap -verbose 进行反编译，得到以下内容：
+```
+// ...
+Constant pool:
+// ...
+   #2 = Class              #18            // java/lang/String
+   #3 = String             #19            // abc
+// ...
+  #18 = Utf8               java/lang/String
+  #19 = Utf8               abc
+// ...
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=1
+         0: new           #2                  // class java/lang/String
+         3: dup
+         4: ldc           #3                  // String abc
+         6: invokespecial #4                  // Method java/lang/String."<init>":(Ljava/lang/String;)V
+         9: astore_1
+// ...
+
+```
+在 Constant Pool 中，#19 存储这字符串字面量 "abc", #3 是 String Pool 的字符串对象，它指向 #19 这个字符串字面量。在 main 方法中， 0: 行使用 new #2 在堆中创建一个字符串对象，并且使用 ldc #3 将 String Pool 中的字符串对象作为 String 构造函数的参数。  
+
+以下是 String 构造函数的源码，可以看到，在将一个字符串对象作为另一个字符串对象的构造函数参数时，并不会完全复制 value 数组内容，而是都会指向同一个 value 数组。
+
+```
+public String(String original){
+    this.value = original.value;
+    this.hash = original.hash;
+}
+```
+### 三、运算<a name="3"></a>
+#### 参数传递<a name="3.1"></a>
+以下代码中 Dog dog 的dog是一个指针，存储的是对象的地址。在将一个参数传入一个方法时，本质上是将对象的地址以值得方式传递到形参中。
+
+```
+public class Dog {
+    
+    String name;
+
+    Dog(String name) {
+        this.name = name;
+    }
+
+    String getName() {
+        return this.name;
+    }
+
+    String getObjectAddress() {
+        return super.toString();
+    }
+}
+```
+在方法中改变对象的字段值会改变原对象该字段值，因为引用的是同一个对象。
+```
+class PassByValueExample {
+    public static void main(String[] args) {
+        Dog dog = new Dog("A");
+        func(dog);
+        System.out.println(dog.getName());      // B
+    }
+
+    private static void func(Dog dog) {
+        dog.setName("B");
+    }
+}
+```
+但是在方法中将指针引用了其它对象，那么此时方法里和方法外的两个指针指向了不同的对象，在一个指针改变其所指向对象的内容对另一个指针所指向的对象没有影响。
+
+```
+public class PassByValueExample {
+    public static void main(String[] args) {
+        Dog dog = new Dog("A");
+        System.out.println(dog.getObjectAddress()); // Dog@4554617c
+        func(dog);
+        System.out.println(dog.getObjectAddress()); // Dog@4554617c
+        System.out.println(dog.getName());          // A
+    }
+
+    private static void func(Dog dog) {
+        System.out.println(dog.getObjectAddress()); // Dog@4554617c
+        dog = new Dog("B");
+        System.out.println(dog.getObjectAddress()); // Dog@74a14482
+        System.out.println(dog.getName());          // B
+    }
+}
+```
+
+#### float 与 double<a name="3.2"></a>
+Java 不能隐式执行向下转型，因为这会使得精度降低。  
+
+1.1 字面量属于 double 类型，不能直接将 1.1 直接赋值给 float 变量，因为这是向下转型。  
+
+```
+// float f = 1.1;
+```
+
+1.1f 字面量才是 float 类型。
+
+```
+float f = 1.1f;
+```
+
+#### 隐式类型转换<a name="3.3"></a>
+因为字面量 1 是 int 类型，它比 short 类型精度要高，因此不能隐式地将 int 类型向下转型为 short 类型。  
+
+```
+short s1 = 1;
+//s1 = s1 + 1;
+```
+但是使用 += 或者 ++ 运算符会执行隐式类型转换。  
+```
+s1 += 1;
+s1++;
+```
+上面的语句相当于将 s1 + 1 的计算结果进行了向下转型：
+```
+s1 = (short)(s1 + 1);
+```
+#### switch<a name="3.4"></a>
+从 Java 7 开始，可以在 switch 条件判断语句中使用 String 对象。  
+switch 不支持 long、float、double，是因为 switch 的设计初衷是对那些只有少数几个值的类型进行等值判断，如果值过于复杂，那么还是用 if 比较合适。  
+
+### 四、关键字<a name="4"></a>
+#### final<a name="4.1"></a>
+1.**数据**  
+
+声明数据为常量，可以是编译时的常量，也可以是在运行时被初始化后不能被改变的常量。  
+* 对于基本类型，final 使数值不变；
+* 对于引用类型，final 使引用不变，也就不能引用其他对象，但是被引用的对象本身是可以修改的。  
+```
+final int x = 1;
+//x = 3;    // cannot assign value to final variable 'x'
+final A y = new A();
+y.a = 1;
+```
+
+2.**方法**  
+
+声明方法不能被子类重写。  
+private 方法隐式地被指定为 final，如果在子类中定义的方法和基类中的一个 private 方法签名相同，此时子类的方法不是重写基类方法，而是在子类中定义了一个新的方法。  
+
+3.**类**
+声明类不允许被继承。
+
+#### static<a name="4.2"></a>
+1.**静态变量**  
+
+* 静态变量： 又被称为类变量，也就是说这个变量属于类的，类所有的实例都共享静态变量，可以直接通过类名来访问它。静态变量在内存中只存在一份。  
+* 实例变量： 每创建一个实例就会产生一个实例变量，它与该实例同生共死。  
+
+```
+public class A {
+    private int x;          // 实例变量
+    private static int y;   // 静态变量
+
+    public static void main(String[] args) {
+        // int x = A.x;     // Non-static field 'x' cannot be referenced from a static context 
+        A a = new A();
+        int x = a.x;
+        int y = A.y;
+    }
+}
+```
+2.**静态方法**  
+
+静态方法在类加载的时候就存在了，它不依赖于任何实例。所以静态方法必须有实现，也就是说它不能是抽象方法。  
+
+```
+public  abstract class A {
+    public static void func1(){}
+}
+```
+
+只能访问所属类的静态字段和静态方法，方法中不能有 this 和 super 关键字，因为这两个关键字与具体对象关联。
+```
+public class A {
+    private static int x;
+    private int y;
+
+    public static void func1(){
+        int a = x;
+        // int b = y;       // Non-static field 'y' cannot be referenced from a static context
+        // int b = this.y;  //'A.this' cannot be referenced from a static context
+    }
+}
+```
+**3.静态语句块**  
+静态语句块在类初始化时运行一次。  
+```
+public class A {
+    static {
+        System.out.println("123");
+    }
+
+    public static void main(String[] args) {
+        A a1 = new A();
+        A a2 = new A();
+    }
+}
+```
+```
+123
+```
+**4.静态内部类**  
+非静态内部类依赖于外部类的实例，也就是说需要先创建外部类的实例，才能用这个实例去创建非静态内部类。而静态内部类不需要。  
+```
+public class OuterClass {
+    class InnerClass {
+    }
+    static class StaticInnerClass {
+    }
+    public static void main(String[] args) {
+        //InnerClass innerClass = new InnerClass();     //  'OuterClass.this' cannot be referenced from a static context
+        OuterClass  outerClass = new OuterClass();
+        InnerClass innerClass = outerClass.new InnerClass();
+        StaticInnerClass staticInnerClass = new StaticInnerClass(); 
+    }
+}
+```
+静态内部类不能访问外部类的非静态的变量和方法。  
+
+**5.静态导包**
+在使用静态变量和方法时不用再指明 ClassName,从而简化代码，但可读性大大降低。  
+
+**6.初始化顺序**  
+静态变量和静态语句块优先于实例变量和普通语句块，静态变量和静态语句块的初始化顺序取决于它们在代码中的顺序。  
+```
+public static String staticField = "静态变量";
+```
+```
+static {
+    System.out.println("静态语句块");
+}
+```
+```
+public String field = "实例变量";
+```
+```
+{
+    System.out.println("普通语句块");
+}
+```
+最后才是构造函数的初始化。
+```
+public InitialOrderTest(){
+    System.out.println("构造函数");
+}
+```
+存在继承的情况下，初始化顺序为：
+* 父类（静态变量、静态语句块）
+* 子类（静态变量、静态语句块）
+* 父类（实例变量、普通语句块）
+* 父类（构造函数）
+* 子类（实例变量、普通语句块）
+* 子类（构造函数）
+
+### 五、Object 通用方法<a name="5"></a>
+#### 概述<a name="5.1"></a>
+
+```
+public native int hashCode()
+
+public boolean equals(Object obj)
+
+protected native Object clone() throws CloneNotSupportedException
+
+public String toString()
+
+public final native Class<?> getClass()
+
+protected void finalize() throws Throwable
+
+public final native void notify()
+
+public final native void notifyAll()
+
+public final native void wait(long timeout) throws InterruptedException
+
+public final void wait(long timeout, int nanos) throws InterruptedException
+
+public final void wait() throws InterruptedException
+
+```
+
+#### equals()<a name="5.2"></a>
+**1.等价关系**  
+两个对象具有等价关系，需要满足以下五个条件：自反性、对称性、传递性、一致性、与 null 的比较（对任何不是 null 的对象 x 调用 x.equals(null) 结果都为flase)  
+
+**2.等价于相等**  
+* 对于基本类型，== 判断两个值是否相等，基本类型没有 equals() 方法。
+* 对于引用类型，== 判断两个变量是否引用同一个对象，而 equals() 判断引用的对象是否等价。
+
+```
+Integer x = new Integer(1);
+Integer y = new Integer(1);
+System.out.println(x.equals(y));    // true
+System.out.println(x == y);         // false
+```
+**3.实现**  
+* 检查是否为同一个对象的引用，如果是直接返回 true；
+* 检查是否是同一个类型，如果不是，直接返回 false；
+* 将 Object 对象进行转型；
+* 判断每个关键域是否相等
+```
+public class EqualExample {
+    private int x;
+    private int y;
+    private int z;
+
+    public EqualExample(int x, int y, int z){
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if(this == o) return true;
+        if(o == null || getClass() != o.getClass()) return false;
+
+        EqualExample that = (EqualExample) o;
+        
+        if(x != that.x) return false;
+        if(y != that.y) return false;
+        return z == that.z;
+    }
+}
+```
+
+#### hashCode()<a name="5.3"></a>
+
+hashCode() 返回哈希值，而 equals() 是用来判断两个对象是否等价。等价的两个对象散列值一定相同，但是散列值相同的两个对象不一定等价，这是因为计算哈希值具有随机性，两个值不同的对象可能计算出相同的哈希值。  
+在覆盖 equals() 方法时应当总是覆盖 hashCode() 方法，保证等价的两个对象哈希值也相等。  
+HashSet 和 HashMap 等集合类使用了 hashCode() 方法来计算对象应该存储的位置，因此要将对象添加到这些集合类中，需要让对应的类实现 hashCode() 方法。  
+下面的代码中，新建了两个等价的对象，并将它们添加到 HashSet 中，我们希望将两个对象当成一样的，只在集合中添加一个对象。但是 EqualExample 没有实现 hashCode() 方法，因此两个对象的哈希值是不同的，最终导致集合添加了两个等价的对象。  
+```
+EqualExample e1 = new EqualExample(1,1,1);
+EqualExample e2 = new EqualExample(1,1,1);
+System.out.println(eq.equal(e2));   // true
+HashSet<EqualExample> set  = new HashSet<>();
+set.add(e1);
+set.add(e2);
+System.out.println(set.size());     // 2
+```
+
+理想的哈希函数应当具有均匀性 ，即不相等的对象应当均匀分布到所有可能的哈希值上。这就要求了哈希函数要把所有域的值都考虑进来。可以将每个域都当成 R 进制的某一位，然后组成一个 R 进制的整数。  
+
+R 一般取 31，它是一个奇素数。
+
+#### toString()<a name="5.4"></a>
+默认返回 类名@十六进制数 这种形式，其中 @ 后面的数值为散列码的无符号十六进制表示。
+
+#### clone()<a name="5.5"></a>
+##### 1.cloneable
+clone() 是 Object 的 protected 方法，它不是 public，一个类不显式去重写 clone()，其他类就不能直接去调用该类实例的 clone() 方法。
+
+##### 2.浅拷贝
+拷贝对象和原始对象的引用类型引用同一个对象。
+
+##### 3.深拷贝
+拷贝对象和原始对象的引用类型引用不同的对象。
+
+##### 4.clone的替代方案
+使用 clone() 方法既复杂又有风险，最好别用，使用拷贝构造函数或拷贝工厂来拷贝一个对象。
+
+### 六、继承 <a name="6"></a>
+#### 访问权限 <a name="6.1"></a>
+Java 中有三个访问权限修饰符：private、protected 以及 public，如果不加访问修饰符，表示包级可见。
+
+#### 抽象类与接口 <a name="6.2"></a>
+##### 1.抽象类
+抽象类和抽象方法都使用 abstract 关键字进行声明。如果一个类中包含抽象方法，那么该类必须声明为抽象类。
+
+抽象类不能被实例化，只能被继承。
+
+##### 2.接口
+接口是抽象类的延伸，在 Java 8 之前，它可以看成是一个完全抽象的类，也就是说它不能有任何的方法实现。
+
+从 Java 8开始，接口也可以拥有默认的方法实现，这是因为不支持默认方法的接口的维护成本太高了。
+
+接口的成员（字段+方法）默认都是 public的，并且不允许定义为 private 或 protected。从 Java 9 开始，允许将方法定义为 private，这样就能定义某些复用的代码又不会把方法暴露出去。
+
+接口的字段默认都是 static 和 final 的。
+
+##### 3.抽象类与接口比较
+* 从设计层面上看，抽象类提供一种 IS-A 关系，而接口更像一种 LIKE-A 关系。
+* 从使用上看，一个类可以实现多个接口，但是不能继承多个抽象类。
+* 接口的字段只能是 static 和 final 类型的，而抽象类的字段没有这种限制。
+* 接口的成员只能是 public 的，而抽象类的成员可以有多种访问权限。
+
+在很多情况下，接口优先于抽象类。因为接口没有抽象类严格的类层次结构要求，可以灵活地为一个类添加行为。并且从 Java 8 开始，接口也可以有默认的方法实现，使得接口的成本也变得很低。
+
+#### super<a name="6.3"></a>
+* 访问父类的构造函数。super()。
+* 访问父类的成员。
+
+#### 重写与重载 <a name="6.4"></a>
+##### 1.重写
+存在于继承体系中，指子类实现了一个与父类在方法声明上完全相同的一个方法。
+
+##### 2.重载
+存在于一个类中，指一个方法与已经存在的方法名称上相同，但是参数类型、个数、顺序至少有一个不同。
+
+应该注意的是，返回值不同，其他都相同不算是重载。
+
+### 七、反射<a name="7"></a>
+
+每个类都有一个 Class 对象，包含了与类有关的信息。当编译一个新类时，会产生一个同名的 .class 文件，该文件内容保存着 Class 对象。
+
+类加载相当于 Class 对象的加载，类在第一次使用时才动态加载到 JVM 中。也可以使用 Class.forname("com.mysql.jdbc.Driver") 这种方式来控制类的加载，该方法会返回一个 Class 对象。
+
+反射可以提供运行时的类信息，并且这个类可以在运行时才加载进来，甚至在编译时期该类的.class不存在也可以加载进来。
+
+反射的优点：
+* 可扩展性
+* 可视化开发环境： 如IDE,从反射中可用的类型信息中受益，帮助程序员编写正确的代码。  
+* 调试器和测试工具
+
+反射的缺点：
+* 性能开销
+* 安全限制
+* 内部暴露
+
+### 八、异常<a name="8"></a>
+
+### 九、泛型<a name="9"></a>
+
+### 十、注解<a name="10"></a>
+
+### 十一、特性<a name="11"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
