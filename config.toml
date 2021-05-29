@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Zexun Luo"
+title = "狂人笔记"
 languageCode = "zh-cn"
 DefaultContentLanguage = "zh-cn" # Change this to change the site's language
 theme = "hugo.386"
@@ -7,13 +7,13 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "Zexun Luo"
+    mainpagetitle = "我唯一知道的是我一无所知。"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "Welcome!" 
+    mainpagesubtitle = "这里是我学习记录、分享的地方。" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "This is my personal website."
+    mainpagedesc = "我叫罗泽勋，是一名即将毕业的华南师范大学软件学院的学生，目前在广州某单位工作。我喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro，讨厌 Windows。更多相关内容在关于页中，本人所学尚浅，欢迎各位朋友来交流。"
 
     # The name to display in the copyright section in the footer
     copyrightname = "Zexun Luo"
@@ -45,7 +45,7 @@ preserveTaxonomyNames = true
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     url = "/"
-
+ 
     # Text to go before copyright information
     #prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
 
@@ -56,13 +56,13 @@ preserveTaxonomyNames = true
   # This displays buttons in the navbar to access your contents
   [[menu.main]]
     identifier = "about" # An unique identifier for the button
-    name = "About"       # A display name for the button
+    name = "关于"       # A display name for the button
     url = "/about/"      # The path to the content. It can lead to a single page (like here)
     weight = 10          # A number to order the buttons in the navbar
 
   [[menu.main]]
     identifier = "posts"
-    name = "All posts"
+    name = "记录"
     url = "/post/"       # The path can lead to a content folder too.
     weight = 20
 

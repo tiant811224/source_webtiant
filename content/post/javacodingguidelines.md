@@ -2,10 +2,10 @@
 title: "【规约】 Java 编程篇"
 date: 2021-05-28T10:36:40+08:00
 tags: [
-    "规约"
+    "Java"
 ]
 categories: [
-    "Java",
+    "规约",
 ]
 ---
 ### 前言
