@@ -2,14 +2,6 @@
 title: "HTTP"
 date: 2021-01-07T15:25:54+08:00
 author: "罗泽勋"
-draft: true
-
-tags: [
-
-]
-categories: [
-    "计算机网络",
-]
 ---
 
 ### 一、基础概念

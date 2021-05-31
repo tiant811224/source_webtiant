@@ -2,14 +2,6 @@
 title: "内存管理"
 date: 2021-01-07T10:48:45+08:00
 author: "罗泽勋"
-draft: true
-
-tags: [
-
-]
-categories: [
-    "操作系统",
-]
 ---
 
 ### 虚拟内存

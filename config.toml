@@ -62,8 +62,14 @@ preserveTaxonomyNames = true
 
   [[menu.main]]
     identifier = "posts"
-    name = "记录"
+    name = "原创"
     url = "/post/"       # The path can lead to a content folder too.
+    weight = 20
+
+  [[menu.main]]
+    identifier = "notes"
+    name = "收集"
+    url = "/note/"       # The path can lead to a content folder too.
     weight = 20
 
 [taxonomies]

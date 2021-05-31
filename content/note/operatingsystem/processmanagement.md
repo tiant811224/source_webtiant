@@ -2,14 +2,6 @@
 title: "进程管理"
 date: 2021-01-05T21:50:53+08:00
 author: "罗泽勋"
-draft: true
-
-tags: [
-
-]
-categories: [
-    "操作系统",
-]
 ---
 
 ### 进程与线程

@@ -2,14 +2,6 @@
 title: "数据库系统原理"
 date: 2020-12-31T10:12:55+08:00
 author: "罗泽勋"
-draft: true
-
-tags: [
-
-]
-categories: [
-    "数据库",
-]
 ---
 
 * [一、事务](#1)
