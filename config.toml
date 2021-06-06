@@ -7,13 +7,13 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "我唯一知道的是我一无所知。"
+    mainpagetitle = "你好！这里是我学习记录、分享交流的地方。"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "这里是我学习记录、分享的地方。" 
+    mainpagesubtitle = "我唯一知道的是我一无所知。" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "我叫罗泽勋，是一名即将毕业的华南师范大学软件学院的学生，目前在广州某单位工作。我喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro，讨厌 Windows。更多信息在关于页中，本人所学尚浅，欢迎各位朋友来交流。"
+    mainpagedesc = "我叫罗泽勋，是一名即将毕业的华南师范大学软件学院的学生，同时也是一名软件开发工程师。我喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro，讨厌 Windows。更多信息在关于页中，本人所学尚浅，欢迎各位朋友来指导交流。"
 
     # The name to display in the copyright section in the footer
     copyrightname = "Zexun Luo"
@@ -58,13 +58,13 @@ preserveTaxonomyNames = true
     identifier = "about" # An unique identifier for the button
     name = "关于"       # A display name for the button
     url = "/about/"      # The path to the content. It can lead to a single page (like here)
-    weight = 10          # A number to order the buttons in the navbar
+    weight = 30          # A number to order the buttons in the navbar
 
   [[menu.main]]
     identifier = "posts"
     name = "原创"
     url = "/post/"       # The path can lead to a content folder too.
-    weight = 20
+    weight = 10
 
   [[menu.main]]
     identifier = "notes"
