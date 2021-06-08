@@ -9,7 +9,7 @@ title = "关于"
 本站目前采用 Hugo（一个静态网站生成器）作为后台系统，目前网站资源放在 [Github]，源码也托管在 [Github](https://github.com/lzxqaq/blog_source.git) 上。本站主题采用是 [hugo.386](https://themes.gohugo.io/hugo.386/)。
 
 # 其他链接
-* [谎话录](http://lzxqaq.top) ：这里面记录了我的生活日志。
+* [谎言录](http://lzxqaq.top) ：这里面记录了我的生活日志。
 * [Github](https://github.com/lzxqaq) ：这是我的 Github 仓库地址。
 * [Gitee](https://gitee.com/lzxqaq) ：这是我的 Gitee 仓库地址。
 * [哔哩哔哩](https://space.bilibili.com/404289432) ：这是我的哔哩哔哩个人空间。
