@@ -13,7 +13,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "我唯一知道的是我一无所知。" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "我叫罗泽勋，是一名软件开发工程师。我喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro，讨厌 Windows。更多信息在关于页中，本人所学尚浅，欢迎各位朋友来指导交流。"
+    mainpagedesc = "我叫罗泽勋，从事软件开发工作。我喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro，讨厌 Windows。更多信息在关于页中，本人所学尚浅，欢迎各位朋友来指导交流。"
 
     # The name to display in the copyright section in the footer
     copyrightname = "Zexun Luo"
@@ -62,13 +62,13 @@ preserveTaxonomyNames = true
 
   [[menu.main]]
     identifier = "posts"
-    name = "原创"
+    name = "日志"
     url = "/post/"       # The path can lead to a content folder too.
     weight = 10
 
   [[menu.main]]
     identifier = "notes"
-    name = "收集"
+    name = "笔记"
     url = "/note/"       # The path can lead to a content folder too.
     weight = 20
 
