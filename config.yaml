@@ -1,0 +1,67 @@
+baseurl: "/"
+languageCode: "zh-cn"
+title: "狂人笔记"
+theme: "hugo-lzx"
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+rssLimit: 100
+
+
+
+menu:
+  main:
+    - name: "主页"
+      url: "/"
+      weight: 1
+    - name: "关于"
+      url: "/about/"
+      weight: 2
+    - name: "日志"
+      url: "/blog/"
+      weight: 3
+    - name: "笔记"
+      url: "/note/"
+      weight: 4
+    - name: "作品"
+      url: "/work/"
+      weight: 5
+    # - name: "简历"
+    #   url: "/cv/"
+    #   weight: 6
+ 
+
+params:
+  description: "我的个人网站"
+  footer: "&copy; [狂人笔记](/) 2020 - 2021"
+  disqusURL: "/"
+
+
+  logo:
+    img: "/images/logo.png"
+    url: "/"
+    alt: "狂人笔记"
+    tag: ""
+
+  author:
+    en: "Zexun Luo"
+    cn: "罗泽勋"
+
+  lang:
+    edit:
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
+
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]
+    fractions: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
