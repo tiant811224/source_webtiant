@@ -20,7 +20,7 @@ menu:
       url: "/about/"
       weight: 2
     - name: "日志"
-      url: "/blog/"
+      url: "/post/"
       weight: 3
     - name: "笔记"
       url: "/note/"
