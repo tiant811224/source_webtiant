@@ -39,13 +39,17 @@
 {{ $.Scratch.Set "pages" .Pages }}
 {{ if not .IsHome }}
 {{ if .Scratch.Get "pages" }}
-<ul class="archive">
+<hr>
+<div class="archive-ul">
+  <ul class="archive">
   {{ range (where ($.Scratch.Get "pages") "Section" "!=" "") }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </li>
     {{ end }}
-</ul>
+  </ul>
+</div>
+
 {{ end }}
 {{ end }}
 

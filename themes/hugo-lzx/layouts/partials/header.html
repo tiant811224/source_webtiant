@@ -52,16 +52,18 @@
 
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
   <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
-    <header class="masthead">
-      <div class="masthead-top">
+    
+    <div id="pjax-content">
+    <header class="{{ if .IsHome }}masthead-home{{ else }}masthead{{ end }}">
+      <div class="{{ if .IsHome }}masthead-top-home{{ else }}masthead-top{{ end }}">
         {{ partial "tagline.html" . }}
       </div>
-      <div class="masthead-bottom">
+      <div class="{{ if .IsHome }}masthead-bottom-home{{ else }}masthead-bottom{{ end }}">
         {{ partial "menu.html" . }}
       </div>
     </header>
 
-    <article class="main" id="pjax-content">
+    <article class="main">
       <header class="title">
       {{ partial "meta.html" . }}
       </header>

@@ -34,9 +34,13 @@ menu:
 
 params:
   description: "我的个人网站"
-  footer: "&copy; [狂人笔记](/) 2020 - 2021"
+  footer: "&copy; [Zexun Luo](/) 2020 - 2021"
   disqusURL: "/"
-
+  customJS:
+    - "js/center-img.js"
+    - "js/right-quote.js"
+    - "js/external-link.js"
+    - "js/header-link.js"
 
   logo:
     img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo2.png"
@@ -50,8 +54,15 @@ params:
     cn: "罗泽勋"
 
   music:
-      - name: "永远同在"
-        url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/永远同在.mp3"
+    - name: "宗次郎 - いつも何度でも"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/宗次郎%20-%20いつも何度でも.mp3"
+    - name: "岁月"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/岁月.mp3"
+    - name: "张雨生 - 我的未来不是梦"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/张雨生 - 我的未来不是梦.mp3"
+    - name: "自然卷 - How much"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/自然卷%20-%20How%20much.mp3"
+        
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]
