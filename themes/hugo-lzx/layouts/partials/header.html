@@ -39,6 +39,15 @@
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
+
+    <style>
+      html {
+        background: url("{{ .Site.Params.logo.bgImg }}");
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
   </head>
 
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
