@@ -28,6 +28,7 @@
     {{ end }}
 
 
+
     {{ if .Keywords }}
     <meta property="keywords" content ="{{ delimit .Keywords ", " }}">
     {{ end }}
@@ -43,8 +44,12 @@
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
   <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
     <header class="masthead">
-      {{ partial "tagline.html" . }}
-      {{ partial "menu.html" . }}
+      <div class="masthead-top">
+        {{ partial "tagline.html" . }}
+      </div>
+      <div class="masthead-bottom">
+        {{ partial "menu.html" . }}
+      </div>
     </header>
 
     <article class="main" id="pjax-content">

@@ -31,7 +31,6 @@ menu:
     # - name: "简历"
     #   url: "/cv/"
     #   weight: 6
- 
 
 params:
   description: "我的个人网站"
@@ -40,7 +39,7 @@ params:
 
 
   logo:
-    img: "/images/logo.png"
+    img: "/images/logo2.png"
     url: "/"
     alt: "狂人笔记"
     tag: ""
@@ -49,13 +48,9 @@ params:
     en: "Zexun Luo"
     cn: "罗泽勋"
 
-  lang:
-    edit:
-      cn: "编辑"
-    license:
-      cn: "版权"
-    subscribe:
-      cn: "订阅"
+  music:
+      - name: "永远同在"
+        url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/永远同在.mp3"
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]
