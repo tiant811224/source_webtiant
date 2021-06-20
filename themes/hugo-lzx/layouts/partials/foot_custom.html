@@ -5,6 +5,7 @@
 {{ if .Site.Params.music }}
     {{ partial "music.html" . }}
 {{ end }}
+
 {{ range .Site.Params.customJS }}
 <script async src="{{ . | relURL }}"></script>
 {{ end }}

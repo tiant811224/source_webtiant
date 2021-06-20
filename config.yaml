@@ -38,14 +38,16 @@ params:
   disqusURL: "/"
   customJS:
     - "js/center-img.js"
-    - "js/external-link.js"
+    # - "js/external-link.js"
 
   logo:
-    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo2.png"
+    img: "/images/logo2.png"
+    # img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo2.png"
     url: "/"
     alt: "狂人笔记"
     tag: ""
-    bgImg: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/bg5.jpg"
+    # bgImg: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/bg5.jpg"
+    bgImg: "/images/bg5.jpg"
 
   author:
     en: "Zexun Luo"
@@ -53,13 +55,17 @@ params:
 
   music:
     - name: "宗次郎 - いつも何度でも"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/宗次郎%20-%20いつも何度でも.mp3"
+      # url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/宗次郎%20-%20いつも何度でも.mp3"
+      url: "/music/宗次郎%20-%20いつも何度でも.mp3"
     - name: "岁月"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/岁月.mp3"
+      # url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/岁月.mp3"
+      url: "/music/岁月.mp3"
     - name: "张雨生 - 我的未来不是梦"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/张雨生 - 我的未来不是梦.mp3"
+      url: "/music/张雨生 - 我的未来不是梦.mp3"
+      # url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/张雨生 - 我的未来不是梦.mp3"
     - name: "自然卷 - How much"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/自然卷%20-%20How%20much.mp3"
+      url: "/music/自然卷%20-%20How%20much.mp3"
+      # url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/自然卷%20-%20How%20much.mp3"
         
 
 blackfriday:
