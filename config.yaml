@@ -54,13 +54,15 @@ params:
 
   music:
     - name: "宗次郎 - いつも何度でも"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/宗次郎%20-%20いつも何度でも.mp3"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/1.mp3"
     - name: "岁月"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/岁月.mp3"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/2.mp3"
+    - name: "真的汉子"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/6.mp3"
     - name: "张雨生 - 我的未来不是梦"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/张雨生 - 我的未来不是梦.mp3"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/5.mp3"
     - name: "自然卷 - How much"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/自然卷%20-%20How%20much.mp3"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/4.mp3"
         
 
 blackfriday:

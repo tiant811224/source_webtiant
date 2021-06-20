@@ -39,24 +39,11 @@
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
-
-    <style>
-      html {
-        width: 100%;
-        height: 100vh;
-
-        background: url("{{ .Site.Params.logo.bgImg }}");
-        background-size:cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }
-    </style>
+    <style>body:before {background: url("{{ .Site.Params.logo.bgImg }}");background-position: center center;background-size:cover;}</style>
   </head>
 
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
-  <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
-    
+  <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}" >
     <div id="pjax-content">
     <header class="{{ if .IsHome }}masthead-home{{ else }}masthead{{ end }}">
       <div class="{{ if .IsHome }}masthead-top-home{{ else }}masthead-top{{ end }}">
