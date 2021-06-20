@@ -2,9 +2,18 @@
   </div>
   <footer>
   {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
   <hr>
-  <div class="copyright">{{ . | markdownify }}</div>
+
+  {{ with .Site.Params.record }}
+  <div class="site_record"> <a href="{{ .recordUrl }}">{{ .recordId }}</a></div>
+  {{ end }}
+
+  {{ with .Site.Params.footer }}
+
+  <div class="copyright">
+    {{ . | markdownify }}
+  
+  </div>
   {{ end }}
   </footer>
   </body>

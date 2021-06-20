@@ -37,6 +37,10 @@ params:
   customJS:
     - "js/center-img.js"
 
+  record:
+    recordId: "粤ICP备 2021000668 号"
+    recordUrl: "https://beian.miit.gov.cn"
+
   logo:
     img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo2.png"
     url: "/"
