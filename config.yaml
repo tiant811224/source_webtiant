@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "zh-cn"
-title: "狂人笔记"
+title: "人类生活见闻录"
 theme: "hugo-lzx"
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
@@ -38,9 +38,7 @@ params:
   disqusURL: "/"
   customJS:
     - "js/center-img.js"
-    - "js/right-quote.js"
     - "js/external-link.js"
-    - "js/header-link.js"
 
   logo:
     img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo2.png"
