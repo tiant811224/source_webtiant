@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
-    <style>body:before {background: url("{{ .Site.Params.logo.bgImg }}");background-position: center center;background-size:cover;}</style>
+    <style>body:before {background: url("{{ .Site.Params.logo.bgImg }}");}</style>
   </head>
 
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}

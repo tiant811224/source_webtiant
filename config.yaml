@@ -42,12 +42,11 @@ params:
     recordUrl: "https://beian.miit.gov.cn"
 
   logo:
-    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo2.png"
+    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png"
     url: "/"
     alt: "狂人笔记"
     tag: ""
-    bgImg: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/bg5.jpg"
-
+    bgImg: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/bg.jpg"
   author:
     en: "Zexun Luo"
     cn: "罗泽勋"

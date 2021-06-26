@@ -5,7 +5,7 @@ hiddenContent: false
 
 你好！
 
-我是罗泽勋，现在从事软件开发工作。喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro，不喜欢用Windows。更多信息在关于页中，由于敝人才疏学浅，本站所述内容若有疏漏和谬误之处，还望各位不吝赐教。下面贴上喜欢的散文诗《邀请》（作者：[Oriah](http://www.oriah.org/index.php)，译者：[野竹林](https://www.douban.com/group/topic/20286000/) ）：
+我是罗泽勋，现在从事软件开发工作。喜欢折腾网站和一些乱七八糟的东西，支持开源，玩 Linux，目前使用的发行版是 Manjaro。更多信息在关于页中，敝人所学尚浅，本站所述内容若有疏漏和谬误之处，还望各位不吝赐教。下面奉上一首散文诗：《邀请》（作者：[Oriah](http://www.oriah.org/index.php)，译者：[野竹林](https://www.douban.com/group/topic/20286000/) ）：
 
 > 你为生存做了些什么，我不关心；
 > 我想知道，
