@@ -9,7 +9,7 @@ title = "关于"
 本站目前采用 [Hugo](https://gohugo.io/)（静态网站生成器）作为后台系统，目前网站资源放在华为云服务器上，同时网站所有源代码托管在 [Gitee](https://gitee.com/lzxqaq/blog_source) 上。本站所用主题是 [hugo-lzx](https://github.com/lzxqaq/hugo-lzx)，这是我从另一个主题 [hugo-ivy](https://github.com/yihui/hugo-ivyv) 中修改而来的。hugo-ivy 非常简洁美观，我想尝试在里面一些个性化的元素。
 
 # 其他链接
-* [生活见闻录](http://lzxqaq.com) ：这是我的生活日志（修整中，暂时不便接待来客）。
+* [生活见闻录](http://lzxqaq.com) ：这是我的生活日志记录的地方。
 * [Github](https://github.com/lzxqaq) ：这是我的 Github 仓库地址，最近越发感觉 Github 访问不便，无奈只能转移到国内的码云了。
 * [码云](https://gitee.com/lzxqaq) ：这是我的 Gitee 仓库地址，Github 打不开时可以用这个。
 * [哔哩哔哩](https://space.bilibili.com/404289432) ：这是我的哔哩哔哩主页。
