@@ -45,11 +45,11 @@
   {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
   <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}" >
     <div id="pjax-content">
-    <header class="{{ if .IsHome }}masthead-home{{ else }}masthead{{ end }}">
-      <div class="{{ if .IsHome }}masthead-top-home{{ else }}masthead-top{{ end }}">
+    <header class="masthead{{ if .IsHome }}{{ .Site.Params.mastheadtype }}{{ end }}">
+      <div class="masthead-top{{ if .IsHome }}{{ .Site.Params.mastheadtype }}{{ end }}">
         {{ partial "tagline.html" . }}
       </div>
-      <div class="{{ if .IsHome }}masthead-bottom-home{{ else }}masthead-bottom{{ end }}">
+      <div class="masthead-bottom{{ if .IsHome }}{{ .Site.Params.mastheadtype }}{{ end }}">
         {{ partial "menu.html" . }}
       </div>
     </header>

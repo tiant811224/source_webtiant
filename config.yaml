@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "zh-cn"
-title: "人类生活见闻录"
+title: "闻道书斋"
 theme: "hugo-lzx"
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
@@ -41,27 +41,35 @@ params:
     recordId: "粤ICP备 2021000668 号"
     recordUrl: "https://beian.miit.gov.cn"
 
+  mastheadtype:
+
   logo:
     img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png"
     url: "/"
     alt: "狂人笔记"
     tag: ""
     bgImg: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/bg.jpg"
+
+
   author:
     en: "Zexun Luo"
     cn: "罗泽勋"
 
   music:
-    - name: "宗次郎 - いつも何度でも"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/1.mp3"
-    - name: "岁月"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/2.mp3"
-    - name: "真的汉子"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/6.mp3"
-    - name: "张雨生 - 我的未来不是梦"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/5.mp3"
-    - name: "自然卷 - How much"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/4.mp3"
+    - name: "Shakira - Try Everything"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Shakira_Try_Everything.mp3"
+    - name: "周杰伦 - 爱的飞行日记"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/周杰伦_爱的飞行日记.mp3"
+    - name: "王菲 - 当时的月亮"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/王菲_当时的月亮.mp3"
+    - name: "アルプスの少女ハイジ - OP"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/HD_アルプスの少女ハイジ_OP.mp3"
+    - name: "林子祥 - 男儿当自强"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/林子祥_男儿当自强.mp3"
+    - name: "张国荣 - 春夏秋冬"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/张国荣_春夏秋冬.mp3"
+    - name: "Frozen - Love is an Open Door"
+      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Frozen-Love_is_an_Open_Door.mp3"
         
 
 blackfriday:
