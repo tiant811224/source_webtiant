@@ -1,0 +1,18 @@
+<div class="music">
+<div id="player" class="aplayer"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js"></script>  
+
+<script type="text/javascript">
+const ap = new APlayer({
+    container: document.getElementById('player'),
+    order: 'random',
+    audio: [{
+        name: '当时的月亮',
+        artist: '王菲',
+        url: 'https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/王菲_当时的月亮.mp3',
+    }
+
+  ]
+});
+</script>

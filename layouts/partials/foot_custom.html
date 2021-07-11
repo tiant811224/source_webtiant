@@ -1,0 +1,17 @@
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/js/jquery.pjax.js"></script>
+<script src="/js/pjax.config.js"></script>
+
+{{ partial "music.html" . }}
+
+{{ partial "disqus.html" . }}
+
+{{ range .Site.Params.customJS }}
+<script async src="{{ . | relURL }}"></script>
+{{ end }}
+
+{{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+{{ end }}
+

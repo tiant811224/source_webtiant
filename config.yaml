@@ -1,8 +1,7 @@
 baseurl: "/"
 languageCode: "zh-cn"
 title: "闻道书斋"
-theme: "hugo-lzx"
-disqusShortname: ""
+theme: "hugo-ivy"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 hasCJKLanguage: true
 enableEmoji: true
@@ -20,7 +19,7 @@ menu:
       url: "/about/"
       weight: 2
     - name: "日志"
-      url: "/post/"
+      url: "/blog/"
       weight: 3
     - name: "笔记"
       url: "/note/"
@@ -31,46 +30,47 @@ menu:
 
 
 params:
-  description: "我的个人网站"
-  footer: "&copy; [Zexun Luo](/) 2020 - 2021"
+  description: "罗泽勋的个人网站"
+  footer: "&copy; [Zexun Luo](/) 2020 - 2021 "
   disqusURL: "/"
   customJS:
+    - "js/fix-toc.js"
     - "js/center-img.js"
+    - "js/right-quote.js"
+    - "js/no-highlight.js"
+    - "js/fix-footnote.js"
+    - "js/math-code.js"
+    - "js/external-link.js"
+    - "js/alt-title.js"
+    - "js/header-link.js"
+  githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
+  twitterImage: "/images/logo.png"
 
-  record:
-    recordId: "粤ICP备 2021000668 号"
-    recordUrl: "https://beian.miit.gov.cn"
 
-  mastheadtype:
+    # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion: "9.12.0"
+  highlightjsCDN: "//cdnjs.cloudflare.com/ajax/libs"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+
 
   logo:
-    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png"
+    img: "/images/logo.png"
     url: "/"
-    alt: "狂人笔记"
+    alt: "Zexun Luo"
     tag: ""
-    bgImg: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/bg.jpg"
-
 
   author:
     en: "Zexun Luo"
     cn: "罗泽勋"
-
-  music:
-    - name: "Shakira - Try Everything"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Shakira_Try_Everything.mp3"
-    - name: "周杰伦 - 爱的飞行日记"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/周杰伦_爱的飞行日记.mp3"
-    - name: "王菲 - 当时的月亮"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/王菲_当时的月亮.mp3"
-    - name: "アルプスの少女ハイジ - OP"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/HD_アルプスの少女ハイジ_OP.mp3"
-    - name: "林子祥 - 男儿当自强"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/林子祥_男儿当自强.mp3"
-    - name: "张国荣 - 春夏秋冬"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/张国荣_春夏秋冬.mp3"
-    - name: "Frozen - Love is an Open Door"
-      url: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Frozen-Love_is_an_Open_Door.mp3"
-        
+    
+  lang:
+    edit:
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]
