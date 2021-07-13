@@ -40,7 +40,7 @@ menu:
 
 params:
   description: "罗泽勋的个人网站"
-  footer: "粤ICP备2021000668号 <br> &copy; [Zexun Luo](/) 2020 - 2021 "
+  footer: "&copy; [Zexun Luo](/) 2020 - 2021 "
   disqusURL: "/"
   customJS:
     - "js/fix-toc.js"
