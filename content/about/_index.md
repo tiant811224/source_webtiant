@@ -15,9 +15,12 @@ title: 关于
 
 
 # 联系我
-[//]: # (微信号： BaiGei-Wan，本人不常用微信，不一定能及时回复消息。)
-* 邮箱: [luozexun@lzxqaq.top](mailto:luozexun@lzxqaq.top)  期待来信~
+
+本人比较抗拒把人和微信绑在一起的看法，不擅长处理碎片化的消息，也不擅长从短文本中分析个人情绪。因此，有我电话的可以电话联系，或者通过邮件联系。
+
+[//]: # (微信号： BaiGei-Wan)
+* 邮箱: [luozexun@lzxqaq.com](mailto:luozexun@lzxqaq.com)  期待来信~
 * 微信号：在本页源码的 Markdown 文件中可见。
-* 手机号: `5614B28A582228921BC31788A36B1800` (`MD5` 加密,实测可解~)
+* 手机号: `5614B28A582228921BC31788A36B1800` (`MD5` 加密，亲测可解~)
 
 
