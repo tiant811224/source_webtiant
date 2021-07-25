@@ -23,15 +23,15 @@ menu:
     - name: "技术"
       url: "/post/"
       weight: 4
-    - name: "笔记"
-      url: "/note/"
-      weight: 5
-    - name: "作品"
-      url: "/work/"
-      weight: 6
-    - name: "简历"
-      url: "/cv/"
-      weight: 7
+    # - name: "笔记"
+    #   url: "/note/"
+    #   weight: 5
+    # - name: "作品"
+    #   url: "/work/"
+    #   weight: 6
+    # - name: "简历"
+    #   url: "/cv/"
+    #   weight: 7
 
 
 
