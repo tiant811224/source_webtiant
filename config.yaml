@@ -23,6 +23,9 @@ menu:
     - name: "技术"
       url: "/post/"
       weight: 4
+    - name: "邀请"
+      url: "/friend/"
+      weight: 5
     # - name: "笔记"
     #   url: "/note/"
     #   weight: 5
