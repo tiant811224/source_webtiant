@@ -59,7 +59,8 @@ h3, h4, h5, h6 {
 blockquote {
   margin: 1em 0;
   padding: 0 2em;
-  border-left: 3px solid #ddd;
+  border-left: 3px solid;
+  border-left-color: transparent;
 }
 
 /* Code */

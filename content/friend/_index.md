@@ -1,6 +1,7 @@
 ---
 title: 朋友邀请
 ---
+>> —— [Oriah](http://www.oriah.org/index.php)（译者：[野竹林](https://www.douban.com/group/topic/20286000/)） 
 
 >> 你为生存做了些什么，我不关心；
 >> 我想知道，
@@ -58,4 +59,3 @@ title: 朋友邀请
 >> 你是否能孤独地面对你自己，
 >> 你是否真正喜欢那个你独自一人时交谈的声音。
 
->> —— [Oriah](http://www.oriah.org/index.php)（译者：[野竹林](https://www.douban.com/group/topic/20286000/)） 
