@@ -60,3 +60,5 @@ title: 邀请
 你是否能孤独地面对你自己，
 你是否真正喜欢那个你独自一人时交谈的声音。
 
+# 友情链接
+* [我](https://lzxqaq.com) ：https://lzxqaq.com

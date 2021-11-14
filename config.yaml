@@ -8,6 +8,10 @@ enableEmoji: true
 footnotereturnlinkcontents: "↩"
 rssLimit: 100
 
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
 
 menu:
   main:
@@ -20,15 +24,15 @@ menu:
     - name: "日志"
       url: "/blog/"
       weight: 3
-    - name: "技术"
-      url: "/post/"
+    - name: "系列"
+      url: "/series/"
       weight: 4
+    - name: "分类"
+      url: "/categories/"
+      weight: 5
     - name: "邀请"
       url: "/friend/"
-      weight: 5
-    # - name: "笔记"
-    #   url: "/note/"
-    #   weight: 5
+      weight: 6
     # - name: "作品"
     #   url: "/work/"
     #   weight: 6

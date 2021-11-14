@@ -5,7 +5,7 @@ tags: [
     "MySQL"
 ]
 categories: [
-    "规约",
+    "编程规范",
 ]
 ---
 

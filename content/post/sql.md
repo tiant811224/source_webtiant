@@ -2,8 +2,9 @@
 title: "SQL 语法"
 date: 2020-12-31T10:12:40+08:00
 author: "罗泽勋"
-draft: true
-
+categories: [
+    "数据库"
+]
 ---
 
 * [一、基础](#1)
