@@ -30,15 +30,10 @@ menu:
     - name: "分类"
       url: "/categories/"
       weight: 5
-    - name: "邀请"
-      url: "/friend/"
+    - name: "抄录"
+      url: "/note/"
       weight: 6
-    # - name: "作品"
-    #   url: "/work/"
-    #   weight: 6
-    # - name: "简历"
-    #   url: "/cv/"
-    #   weight: 7
+
 
 params:
   description: "罗泽勋的个人网站"
