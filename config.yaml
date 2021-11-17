@@ -43,7 +43,6 @@ params:
     - "js/fix-toc.js"
     - "js/center-img.js"
     - "js/right-quote.js"
-    - "js/no-highlight.js"
     - "js/fix-footnote.js"
     - "js/math-code.js"
     - "js/external-link.js"
