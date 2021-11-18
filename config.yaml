@@ -49,8 +49,12 @@ params:
     - "js/alt-title.js"
     - "js/header-link.js"
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
-  twitterImage: "/images/logo.png"
-
+  
+  utteranc:
+    enable: true
+    repo: "lzxqaq/site-comment"
+    issueTerm: "title"
+    theme: "github-light"
 
     # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion: "9.12.0"

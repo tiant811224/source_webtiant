@@ -3,6 +3,7 @@
   <span class="nav-prev">{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
   <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}</span>
 </nav>
+
 <script type="text/javascript">
 document.addEventListener('keyup', function(e) {
   if (e.target.nodeName.toUpperCase() != 'BODY') return;
@@ -20,6 +21,9 @@ document.addEventListener('keyup', function(e) {
 });
 </script>
 {{ end }}
+
+{{ partial "comment.html" . }}
+
 
 {{ range .Site.Params.customJS }}
 <script async src="{{ . | relURL }}"></script>
