@@ -3,7 +3,11 @@ title: Home
 
 ---
 
-欢迎来到罗泽勋的个人主页。
+[<img src="https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://lzxqaq.com)
+
+# 罗泽勋
+
+## 我唯一知道的是我一无所知
 
 2021年我从华南“思饭”大学毕业，带着许多悬而未决的问题，开启人生的下一段旅途。二十多载岁月，何其漫长，忆往昔，却恍如昨日。然而时间一刻也不没有停下来过，最后也免不了死亡的长眠。那么，此刻的承受的痛苦和追求的喜悦又有何意义呢？花开了，然后又会凋零。阳光普照大地，可也会消失的时候。但正因为万物有限，此刻的存在才格外耀眼，人的喜悦、悲伤、憎恶和爱才有意义。
 
