@@ -43,6 +43,8 @@ menu:
 params:
   description: "罗泽勋的个人网站"
   footer: "&copy; [Zexun Luo](/) 2020 - 2021 "
+  customJS:
+    - "js/center-img.js"
   utteranc:
     enable: true
     repo: "lzxqaq/site-comment"
