@@ -1,5 +1,7 @@
 ---
 title: "你为生存做些什么，我不关心"
+weight: 1
+
 ---
 
 > ——〔加拿大〕 [Oriah](http://www.oriah.org/index.php)（译者：[野竹林](https://www.douban.com/group/topic/20286000/)） 
