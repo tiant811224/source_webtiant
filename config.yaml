@@ -14,6 +14,7 @@ taxonomies:
 permalinks:
   note: "/note/:year/:month/:day/:slug/"
   post: "/post/:year/:month/:day/:slug/"
+  blog: "/blog/:year/:month/:day/:slug/"
 
 menu:
   main:
@@ -29,7 +30,7 @@ menu:
     - name: "编程"
       url: "/post/"
       weight: 4
-    - name: "系列"
+    - name: "标签"
       url: "/series/"
       weight: 5
     - name: "分类"
