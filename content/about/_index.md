@@ -23,6 +23,7 @@ title: 关于
 * [哔哩哔哩](https://space.bilibili.com/404289432) ：这是我的哔哩哔哩个人空间。
 * [相册](https://img.lzxqaq.com) ：img.lzxqaq.com
 * [音乐](https://music.lzxqaq.com) ：music.lzxqaq.com
+* [钢琴](https://piano.lzxqaq.com) piano.lzxqaq.com
 
 # 联系我
 
