@@ -4,6 +4,11 @@ date: 2021-12-01T22:05:26+08:00
 series: ["Qt 容器类"] 
 author: "罗泽勋"
 slug: "qt-containers"
+
+categories: [
+    "Qt"
+]
+
 ---
 
 ### 介绍

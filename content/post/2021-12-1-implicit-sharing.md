@@ -2,7 +2,11 @@
 title: "Qt6 隐式共享"
 date: 2021-12-01T22:48:45+08:00
 author: "罗泽勋"
-slug: implicit-sharing
+slug: "implicit-sharing"
+series: ["Qt 核心"] 
+categories: [
+    "Qt"
+]
 ---
 
 Qt 中的许多 C++ 类使用隐式数据共享来最大化资源使用并最小化复制。当作为参数传递时，隐式共享类既安全又高效，因为只有一个指向数据的指针被传递，并且只有当函数写入数据时才会复制数据，即copy-on-write。
