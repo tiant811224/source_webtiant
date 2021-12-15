@@ -68,7 +68,7 @@ void MainWindow::paintEvent(QPaintEvent *)
 
 ### 二、坐标系
 
-坐标系由 QPainter 类控制。绘图设备的默认坐标系的原点位于左上角。 该 X 值增加向右和 Y 值向下增加。 默认单位在基于像素的设备上是一个像素，在打印机上是一个点（1/72 英寸）。 
+坐标系由 QPainter 类控制。绘图设备的默认坐标系的原点位于左上角。 该 X 值增加向右和 Y 值向下增加。 默认单位在基于像素的设备上是一个像素，在打印机上是一个点（1/72 英寸）。注意：原点在 Widget 的左上角而不是正中心，并且每个 Widget 都有自己独立的坐标系。 
 
 QPainter 的逻辑坐标到物理 QPaintDevice 坐标的映射由 QPainter 的转换矩阵、视口和“窗口”处理。 默认情况下，逻辑坐标系和物理坐标系是一致的。 QPainter 还支持坐标变换（例如旋转和缩放）。 
 
@@ -96,4 +96,32 @@ painter.setWindow(QRect(-50, -50, 100, 100));
 
 ![Paint-Base-Draw-Methods](https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/2021-12-13/Paint-Base-Draw-Methods.png)
 
-### 四、画线 - drawLine()
+#### 线 - drawLine()
+
+
+#### 多线段 - drawLines()
+
+
+#### 折线 - drawPolyline()
+
+
+#### 多边形 - drawPolygon()
+
+
+#### 矩形 - drawRect()
+
+
+#### 圆角矩形 - drawRoundRect() & drawRoundedRect()
+
+
+#### 圆、椭圆 - drawEllipse()
+
+
+#### 弧、弦、饼图 - drawArc()、drawChord()、drawPie()
+
+
+#### 绘制 QPixmap - drawPixmap()
+
+
+#### 绘制 QImage - drawImage()
+
