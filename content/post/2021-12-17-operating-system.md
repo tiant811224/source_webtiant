@@ -25,7 +25,11 @@ draft: true
 ![img](https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/2021-12-17/operating-system-base.png)
 
 ### 二、历史
+
 操作系统的不断发展和改善由两个因素驱动
 
 * 硬件成本不断下降  
 * 计算机的功能和复杂性不断变化  
+
+### 三、内核态和用户态
+
