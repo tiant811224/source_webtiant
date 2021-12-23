@@ -23,7 +23,9 @@ title: 关于
 * [哔哩哔哩](https://space.bilibili.com/404289432) ：这是我的哔哩哔哩个人空间。
 * [相册](https://img.lzxqaq.com) ：img.lzxqaq.com
 * [音乐](https://music.lzxqaq.com) ：music.lzxqaq.com
-* [钢琴](https://piano.lzxqaq.com) piano.lzxqaq.com
+* [钢琴](https://piano.lzxqaq.com) : piano.lzxqaq.com
+* [图片编辑](https://imged.lzxqaq.com) : imged.lzxqaq.com
+* [夜*跑](https://night.lzxqaq.com) : night.lzxqaq.com
 
 # 联系我
 
