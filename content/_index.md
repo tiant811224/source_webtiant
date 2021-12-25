@@ -3,11 +3,6 @@ title: Home
 
 ---
 
-[<img src="https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://lzxqaq.com)
-
-# 罗泽勋
-
-## 我唯一知道的是我一无所知。
 
 2021年我从华南“思饭”大学毕业，带着许多悬而未决的问题，开启人生的下一段旅途。二十多载岁月，何其漫长，忆往昔，却恍如昨日。
 
