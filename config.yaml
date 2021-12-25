@@ -39,12 +39,15 @@ menu:
     - name: "分类"
       url: "/categories/"
       weight: 6
+    - name: "简历"
+      url: "/cv/"
+      weight: 7
     - name: "音乐"
       url: "/music/"
-      weight: 7
+      weight: 8
     - name: "抄录"
       url: "/note/"
-      weight: 8
+      weight: 9
 
 
 params:
