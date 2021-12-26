@@ -1,5 +1,5 @@
 ---
-title: "【翻译】Qt 6 核心内部结构"
+title: "【转载】Qt 6 核心内部结构"
 date: 2021-12-13T08:00:25+08:00
 author: "罗泽勋"
 slug: "qt-core"

@@ -1,5 +1,5 @@
 ---
-title: "【翻译】Qt6 绘制基础"
+title: "【转载】Qt6 绘制基础"
 date: 2021-12-13T21:28:59+08:00
 author: "罗泽勋"
 slug: "paintsystem" 

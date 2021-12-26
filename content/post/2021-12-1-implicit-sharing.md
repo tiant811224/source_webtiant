@@ -1,5 +1,5 @@
 ---
-title: "【翻译】Qt6 隐式共享"
+title: "【转载】Qt6 隐式共享"
 date: 2021-12-01T22:48:45+08:00
 author: "罗泽勋"
 slug: "implicit-sharing"
