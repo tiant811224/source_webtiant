@@ -31,7 +31,7 @@ Email：lzx@lzxqaq.com；主页：<https://lzxqaq.com>；现居住于广东省�
 
 ### 网站建设与管理
 
-2019 年 至今
+lzxqaq.com 2020 年 至今
 
 #### 参与项目
 

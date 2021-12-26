@@ -21,11 +21,11 @@ title: 关于
 * [Github](https://github.com/lzxqaq) ：这是我的 Github 仓库地址。
 * [Gitee](https://gitee.com/lzxqaq) ：这是我的 Gitee 仓库地址。
 * [哔哩哔哩](https://space.bilibili.com/404289432) ：这是我的哔哩哔哩个人空间。
-* [相册](https://img.lzxqaq.com) ：img.lzxqaq.com
-* [音乐](https://music.lzxqaq.com) ：music.lzxqaq.com
-* [钢琴](https://piano.lzxqaq.com) : piano.lzxqaq.com
-* [图片编辑](https://imged.lzxqaq.com) : imged.lzxqaq.com
-* [夜](https://night.lzxqaq.com) : night.lzxqaq.com
+* [相册](https://lzxqaq.com/image) ： lzxqaq.com/image
+* [音乐](https://lzxqaq.com/music) ： lzxqaq.com/music
+* [钢琴](https://lzxqaq.com/piano) : lzxqaq.com/piano
+* [图片编辑](https://lzxqaq.com/photoeditor) : lzxqaq.com/photoeditor
+* [夜](https://lzxqaq.com/night) : lzxqaq.com/night
 
 # 联系我
 

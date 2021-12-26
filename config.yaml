@@ -43,7 +43,7 @@ menu:
       url: "/cv/"
       weight: 7
     - name: "音乐"
-      url: "/music/"
+      url: "/song/"
       weight: 8
     - name: "抄录"
       url: "/note/"
