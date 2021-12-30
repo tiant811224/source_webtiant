@@ -45,9 +45,12 @@ menu:
     - name: "音乐"
       url: "/song/"
       weight: 8
+    - name: "英语"
+      url: "/english/"
+      weight: 9
     - name: "抄录"
       url: "/note/"
-      weight: 9
+      weight: 10
 
 
 params:
