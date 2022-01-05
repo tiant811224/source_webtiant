@@ -1,6 +1,13 @@
 ---
 title: "崔普一家物语"
-weight: 8
+date: 2021-12-12T22:07:23+08:00
+
+show_music: true
+song: "ドレミの歌"
+artist: "伊東恵里,森の木児童合唱团"
+songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/伊東恵里,森の木児童合唱团 - ドレミの歌.mp3"
+songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
+
 --- 
 ### 一
 
