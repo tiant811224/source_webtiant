@@ -1,4 +1,4 @@
-{{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }}
+<!-- {{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }} -->
 <script async src="/js/load-typekit.js"></script>
 {{ if lt (.Date.Year) 2017 }}
 <script>
@@ -12,7 +12,7 @@
 });
 </script>
 {{ end }}
-{{ end }}
+<!-- {{ end }} -->
 <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" />
 <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
 <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>

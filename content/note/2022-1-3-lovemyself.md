@@ -90,22 +90,22 @@ songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/George_Davids
 > At first I called this attitude a healthy egoism.  
 > Today I know it is “LOVE OF ONESELF”.  
 
-> 当我真正开始爱自己
-> 我开始远离所有不健康的东西
-> 不论是饮食、人物、事情亦或环境
-> 远离拖累我、让我背离了真实自我的一切
-> 从前的我称这种态度为“有益健康的利己主义”
-> 今天我知道，这其实是“自爱”
+> 当我真正开始爱自己  
+> 我开始远离所有不健康的东西  
+> 不论是饮食、人物、事情亦或环境  
+> 远离拖累我、让我背离了真实自我的一切  
+> 从前的我称这种态度为“有益健康的利己主义”  
+> 今天我知道，这其实是“自爱”  
 
 > As I began to love myself  
 > I quit trying to always be right,  
 > and ever since I was wrong less of the time.   
 > Today I discovered that is “MODESTY”.  
 
-> 当我真正开始爱自己
-> 我不再想永远正确
-> 从那时起，我犯错的时候反而更少
-> 现在我发现那就是“谦虚”
+> 当我真正开始爱自己  
+> 我不再想永远正确  
+> 从那时起，我犯错的时候反而更少  
+> 现在我发现那就是“谦虚”  
 
 > As I began to love myself   
 > I refused to go on living in the past and worrying about the future.  
@@ -126,12 +126,12 @@ songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/George_Davids
 > But as I connected it to my heart, my mind became a valuable ally.  
 > Today I call this connection “WISDOM OF THE HEART”.  
 
-> 当我真正开始爱自己
-> 我明白，我的思虑扰乱了自我
-> 使我变得了无生趣
-> 但当我与本心相连
-> 心灵的力量就成为我坚实的后盾
-> 今日我称这种连结为“心灵的智慧”
+> 当我真正开始爱自己    
+> 我明白，我的思虑扰乱了自我  
+> 使我变得了无生趣  
+> 但当我与本心相连  
+> 心灵的力量就成为我坚实的后盾  
+> 今日我称这种连结为“心灵的智慧”  
 
 > We no longer need to fear arguments,  
 > confrontations or any kind of problems with ourselves or others.  

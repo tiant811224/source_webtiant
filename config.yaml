@@ -49,7 +49,7 @@ menu:
 
 params:
   description: "罗泽勋的个人网站"
-  footer: "&copy; [Zexun Luo](/) 2020 - 2021 "
+  footer: "&copy; [Zexun Luo](/) 2020 - 2022 "
   disqusURL: "/"
   customJS:
     - "js/fix-toc.js"
