@@ -121,7 +121,7 @@ songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/George_Davids
 > 如此日复一日  
 > 而我称这为“圆满”  
 
-> As I began to love myself
+> As I began to love myself  
 > I recognized that my mind can disturb me and it can make me sick.  
 > But as I connected it to my heart, my mind became a valuable ally.  
 > Today I call this connection “WISDOM OF THE HEART”.  
