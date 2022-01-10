@@ -69,10 +69,10 @@ params:
     theme: "github-light"
 
     # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion: "9.12.0"
-  highlightjsCDN: "//cdnjs.cloudflare.com/ajax/libs"
-  highlightjsLang: ["r", "yaml", "tex"]
-  highlightjsTheme: "github"
+  # highlightjsVersion: "9.12.0"
+  # highlightjsCDN: "//cdnjs.cloudflare.com/ajax/libs"
+  # highlightjsLang: ["r", "yaml", "tex"]
+  # highlightjsTheme: "github"
 
 
   logo:

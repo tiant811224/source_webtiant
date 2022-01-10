@@ -37,7 +37,7 @@ Qt 中的许多 C++ 类使用隐式数据共享来最大化资源使用并最小
 
 ### 示例
 
-```
+```C++
 QPixmap p1, p2;
 p1.load("image.bmp");
 p2 = p1;                        // p1 and p2 share data
