@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "zh-cn"
-title: "Zexun Luo | 罗泽勋"
+title: "Zexun Luo | 绝望先生"
 theme: "hugo-ivy"
 googleAnalytics: "G-KDTTBGMLCQ"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
@@ -48,7 +48,7 @@ menu:
 
 
 params:
-  description: "罗泽勋的个人网站"
+  description: "绝望先生的个人网站"
   footer: "&copy; [Zexun Luo](/) 2020 - 2022 "
   disqusURL: "/"
   customJS:
@@ -83,7 +83,7 @@ params:
 
   author:
     en: "Zexun Luo"
-    cn: "罗泽勋"
+    cn: "绝望先生"
     
 
 blackfriday:

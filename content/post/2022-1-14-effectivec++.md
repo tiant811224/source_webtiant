@@ -1,7 +1,7 @@
 ---
-title: "【转载】C++ 面试之高效 C++"
+title: "【转载】C++ 面试之 Effective C++"
 date: 2022-01-14T20:16:02+08:00
-author: "罗泽勋"
+author: "绝望先生"
 
 categories: ["C/C++"]
 series: ["C/C++ 面试"]
