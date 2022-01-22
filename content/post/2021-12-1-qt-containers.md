@@ -2,7 +2,7 @@
 title: "【转载】Qt6 容器类-概述"
 date: 2021-12-01T22:05:26+08:00
 series: ["Qt 容器类"] 
-author: "绝望先生"
+author: "罗泽勋"
 slug: "qt-containers"
 
 categories: [
