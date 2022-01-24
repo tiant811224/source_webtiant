@@ -45,6 +45,9 @@ menu:
     - name: "抄录"
       url: "/note/"
       weight: 8
+    - name: "事项"
+      url: "/todo/"
+      weight: 9
 
 
 params:
