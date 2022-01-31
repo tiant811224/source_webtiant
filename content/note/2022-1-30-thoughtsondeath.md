@@ -107,3 +107,57 @@ slug: "thoughtsondeath"
 > It is Life's change agent. It clears out the old to make way for the new.
 
 > 它推进生命的变更，除去旧的，迎来新的。
+
+
+> Right now the new is you, but someday not too long from now, you will gradually become the old and be cleared away. Sorry to be so dramatic, but it's quite true.
+
+> 现在，你们就是新的，但是不久以后，你们将会逐渐变成旧的，然后被淘汰。抱歉我把话说得这么过头，但这千真万确。
+
+> Your time is limited, so don't waste it living someone else's life.
+
+> 时间有限，不要按照别人的意愿来活，这是浪费时间。
+
+> Don't be trapped by dogma—which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice.
+
+> 不要被教条所束缚，那是为别人的设想而活。不要让他人的意见淹没自己的心声。
+
+> And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.
+
+> 最重要的是，鼓起勇气，跟着自己的心和直觉前行。不管怎样，感觉和直觉早就知道你想成为什么样的人，其它都是次要的。
+
+> When I was young, there was an amazing publication called The Whole Earth Catalog, which was one of the bibles of my generation.
+
+> 我年轻的时候有一本很好的期刊，叫做《全球概览》，它是我们那代人的宝书之一。
+
+> It was created by a fellow named Stewart Brand not far from here in Menlo Park, and he brought it to life with his poetic touch.
+
+> 作者是斯图尔特-布兰德，住在离这儿不远的门罗帕克市。他用他诗一般的语言将期刊描写得栩栩如生。
+
+> This was in the late 1960's, before personal computers and desktop publishing, so it was all made with typewriters, scissors, and polaroid cameras.
+
+> 那是20世纪60年代，还没有个人电脑和台式机，全靠打字机、剪刀和宝丽来照相。
+
+> It was sort of like Google in paperback form, 35 years before Google came along: it was idealistic, overflowing with neat tools and great notions.
+
+> 它就像纸质版的谷歌，却比谷歌早问世了35年。这份期刊太完美了，查阅手段齐全，构思不凡。
+
+> Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue.
+
+> 斯图尔特和他的团队出了好几期《全球概览》，到最后办不下去的时候，他们出了最后一期。
+
+> It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous.
+
+> 那是20世纪70年代中期，那时我也跟你们一样大。在他们最后一期的后封面上是一张清晨乡间小路的照片，是那种爱冒险的人等在那儿搭便车的那种小路。
+
+> Beneath it were the words: "Stay Hungry. Stay Foolish." It was their farewell message as they signed off. Stay Hungry. Stay Foolish.
+
+> 照片下面写着一行字：“好学若饥，谦卑若愚。“这是他们停刊前的告别词。
+
+> And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.
+Stay Hungry. Stay Foolish.
+
+> 这也是我一直想要做到的。现在，你们也要毕业了，要开始新的生活，希望你们也能做到。
+
+> Thank you all very much.
+
+> 谢谢大家。
