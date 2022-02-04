@@ -12,6 +12,7 @@ title: 事务
 
 4. [blogup](https://github.com/lzxqaq/blogup.git) 设计实现 Git 管理插件。
 
+5. 定制一个 Hugo 主题。
 
 ## 需要帮助
 
