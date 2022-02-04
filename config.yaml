@@ -1,7 +1,7 @@
 baseurl: "/"
 languageCode: "zh-cn"
 title: "Zexun Luo | 罗泽勋"
-theme: "hugo-ivy"
+theme: "hugo-xmin"
 googleAnalytics: "G-KDTTBGMLCQ"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 hasCJKLanguage: true
@@ -55,15 +55,10 @@ params:
   footer: "&copy; [Zexun Luo](/) 2020 - 2022 "
   disqusURL: "/"
   customJS:
-    - "js/fix-toc.js"
     - "js/center-img.js"
     - "js/right-quote.js"
-    - "js/fix-footnote.js"
-    - "js/math-code.js"
     - "js/external-link.js"
     - "js/alt-title.js"
-    - "js/header-link.js"
-  githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
   
   utteranc:
     enable: true
