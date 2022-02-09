@@ -1,7 +1,7 @@
 ---
 title: "线性表"
 date: 2021-12-16T12:43:02+08:00
-author: "罗泽勋"
+author: "糸色"
 slug: "linearlist"
 
 categories: ["数据结构"]

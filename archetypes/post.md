@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author: "罗泽勋"
+author: "糸色"
 
 categories: []
 series: []

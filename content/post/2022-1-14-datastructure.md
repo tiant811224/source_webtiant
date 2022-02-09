@@ -1,7 +1,7 @@
 ---
 title: "【转载】C++ 面试之数据结构"
 date: 2022-01-14T20:28:54+08:00
-author: "罗泽勋"
+author: "糸色"
 
 categories: ["C/C++"]
 series: ["C/C++ 面试"]

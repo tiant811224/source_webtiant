@@ -1,7 +1,7 @@
 ---
 title: "栈和队列"
 date: 2021-12-26T09:14:03+08:00
-author: "罗泽勋"
+author: "糸色"
 
 slug: "stackqueue"
 

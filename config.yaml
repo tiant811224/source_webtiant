@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "zh-cn"
-title: "Zexun Luo | 罗泽勋"
+title: "糸色"
 theme: "hugo-xmin"
 googleAnalytics: "G-KDTTBGMLCQ"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
@@ -30,28 +30,28 @@ menu:
     - name: "日志"
       url: "/blog/"
       weight: 3
-    - name: "编程"
-      url: "/post/"
-      weight: 4
-    - name: "标签"
-      url: "/series/"
-      weight: 5
-    - name: "分类"
-      url: "/categories/"
-      weight: 6
-    - name: "简历"
-      url: "/cv/"
-      weight: 7
+    # - name: "编程"
+    #   url: "/post/"
+    #   weight: 4
+    # - name: "标签"
+    #   url: "/series/"
+    #   weight: 5
+    # - name: "分类"
+    #   url: "/categories/"
+    #   weight: 6
+    # - name: "简历"
+    #   url: "/cv/"
+    #   weight: 7
     - name: "抄录"
       url: "/note/"
       weight: 8
-    - name: "事务"
-      url: "/todo/"
-      weight: 9
+    # - name: "事务"
+    #   url: "/todo/"
+    #   weight: 9
 
 
 params:
-  description: "罗泽勋的个人网站"
+  description: "糸色"
   footer: "&copy; [Zexun Luo](/) 2020 - 2022 "
   disqusURL: "/"
   customJS:
@@ -74,7 +74,7 @@ params:
 
   author:
     en: "Zexun Luo"
-    cn: "罗泽勋"
+    cn: "糸色"
     
 
 blackfriday:
