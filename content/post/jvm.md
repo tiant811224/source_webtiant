@@ -1,7 +1,7 @@
 ---
 title: "Java 虚拟机"
 date: 2020-12-25T15:06:19+08:00
-author: "糸色"
+author: "糸色生"
 categories: [
     "Java"
 ]
