@@ -1,7 +1,7 @@
 ---
 title: "【转载】Qt6 绘制基础"
 date: 2021-12-13T21:28:59+08:00
-author: "糸色"
+author: "糸色生"
 slug: "paintsystem" 
 series: ["Qt 绘制系统"] 
 

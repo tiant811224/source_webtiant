@@ -1,7 +1,7 @@
 ---
 title: "【转载】简单工厂模式"
 date: 2021-12-28T06:50:56+08:00
-author: "糸色"
+author: "糸色生"
 
 categories: ["设计模式"]
 slug: "singlefactory"

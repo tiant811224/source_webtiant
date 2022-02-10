@@ -1,7 +1,7 @@
 ---
 title: "【转载】C++ 面试之设计模式"
 date: 2022-01-15T08:14:07+08:00
-author: "糸色"
+author: "糸色生"
 
 categories: ["C/C++"]
 series: ["C/C++ 面试"]

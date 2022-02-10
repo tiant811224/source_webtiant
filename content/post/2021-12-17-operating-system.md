@@ -1,7 +1,7 @@
 ---
 title: "操作系统原理 基础"
 date: 2021-12-17T00:02:07+08:00
-author: "糸色"
+author: "糸色生"
 slug: "operating-system"
 
 categories: ["操作系统原理"]
