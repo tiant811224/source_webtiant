@@ -30,15 +30,15 @@ menu:
     - name: "日志"
       url: "/blog/"
       weight: 3
-    # - name: "编程"
-    #   url: "/post/"
-    #   weight: 4
-    # - name: "标签"
-    #   url: "/series/"
-    #   weight: 5
-    # - name: "分类"
-    #   url: "/categories/"
-    #   weight: 6
+    - name: "编程"
+      url: "/post/"
+      weight: 4
+    - name: "标签"
+      url: "/series/"
+      weight: 5
+    - name: "分类"
+      url: "/categories/"
+      weight: 6
     # - name: "简历"
     #   url: "/cv/"
     #   weight: 7
