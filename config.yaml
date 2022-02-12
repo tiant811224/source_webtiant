@@ -42,9 +42,9 @@ menu:
     # - name: "简历"
     #   url: "/cv/"
     #   weight: 7
-    - name: "抄录"
-      url: "/note/"
-      weight: 8
+    # - name: "抄录"
+    #   url: "/note/"
+    #   weight: 8
     # - name: "事务"
     #   url: "/todo/"
     #   weight: 9
