@@ -1,7 +1,7 @@
 ---
 title: "Java 并发"
 date: 2021-01-09T10:50:16+08:00
-author: "糸色生"
+author: "糸色先生"
 categories: [
     "Java"
 ]

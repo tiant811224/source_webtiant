@@ -1,7 +1,7 @@
 ---
 title: "Java 基础"
 date: 2020-12-15T08:32:26+08:00
-author: "糸色生"
+author: "糸色先生"
 categories: [
     "Java"
 ]

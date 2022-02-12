@@ -1,7 +1,7 @@
 ---
 title: "【转载】面向对象设计原则之开闭原则"
 date: 2021-12-28T08:07:08+08:00
-author: "糸色生"
+author: "糸色先生"
 
 categories: ["设计模式"]
 slug: "oop"

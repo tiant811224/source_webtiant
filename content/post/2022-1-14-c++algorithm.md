@@ -1,7 +1,7 @@
 ---
 title: "【转载】C++ 面试之算法"
 date: 2022-01-14T20:42:19+08:00
-author: "糸色生"
+author: "糸色先生"
 
 categories: ["C/C++"]
 series: ["C/C++ 面试"]
