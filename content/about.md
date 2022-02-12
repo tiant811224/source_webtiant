@@ -25,5 +25,5 @@ title: 关于
 
 # 联系我
 
-* 微信号：BaiGei-Wan
+<!-- * 微信号：BaiGei-Wan -->
 * 邮箱：[lzx@lzxqaq.com](mailto:lzx@lzxqaq.com)  期待来信~ 
