@@ -1,5 +1,5 @@
 ---
-title: "As I Began to Love Myself"
+title: "《As I Began to Love Myself》"
 date: 2022-01-03T22:07:23+08:00
 
 slug: "asibegantolovemyself"

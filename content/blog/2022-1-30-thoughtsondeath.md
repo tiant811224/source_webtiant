@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Death"
+title: "《Thoughts on Death》"
 date: 2022-01-30T22:58:34+08:00
 slug: "thoughtsondeath"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Connecting the dots"
+title: "《Connecting the dots》"
 date: 2022-01-26T22:13:11+08:00
 
 slug: "connectthedots"
