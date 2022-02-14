@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "zh-cn"
-title: "糸色先生"
+title: "罗泽勋"
 theme: "hugo-xmin"
 googleAnalytics: "G-KDTTBGMLCQ"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
@@ -33,15 +33,15 @@ menu:
     - name: "编程"
       url: "/post/"
       weight: 4
-    - name: "标签"
-      url: "/series/"
-      weight: 5
+    # - name: "标签"
+    #   url: "/series/"
+    #   weight: 5
     - name: "分类"
       url: "/categories/"
       weight: 6
-    # - name: "简历"
-    #   url: "/cv/"
-    #   weight: 7
+    - name: "简历"
+      url: "/vitae/"
+      weight: 7
     # - name: "抄录"
     #   url: "/note/"
     #   weight: 8
