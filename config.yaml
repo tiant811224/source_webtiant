@@ -33,22 +33,9 @@ menu:
     - name: "编程"
       url: "/post/"
       weight: 4
-    # - name: "标签"
-    #   url: "/series/"
-    #   weight: 5
     - name: "分类"
       url: "/categories/"
       weight: 6
-    - name: "简历"
-      url: "/vitae/"
-      weight: 7
-    # - name: "抄录"
-    #   url: "/note/"
-    #   weight: 8
-    # - name: "事务"
-    #   url: "/todo/"
-    #   weight: 9
-
 
 params:
   description: "糸色先生"
