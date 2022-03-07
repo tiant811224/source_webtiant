@@ -1,9 +1,11 @@
 ---
-title: "【转载】C++ 面试之数据库"
+title: "【转载】C++ 开发必备之数据库"
 date: 2022-01-15T08:08:34+08:00
-author: "糸色先生"
 
-categories: ["C/C++"]
+categories: [
+    "C/C++",
+    "数据库"
+    ]
 series: ["C/C++ 面试"]
 show_toc: true
 slug: "database"

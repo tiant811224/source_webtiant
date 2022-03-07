@@ -1,7 +1,6 @@
 ---
-title: "【转载】C++ 面试之 Effective C++"
+title: "【转载】C++ 开发必备之 Effective C++"
 date: 2022-01-14T20:16:02+08:00
-author: "糸色先生"
 
 categories: ["C/C++"]
 series: ["C/C++ 面试"]

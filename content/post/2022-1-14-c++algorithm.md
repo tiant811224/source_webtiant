@@ -1,9 +1,11 @@
 ---
-title: "【转载】C++ 面试之算法"
+title: "【转载】C++ 开发必备之算法"
 date: 2022-01-14T20:42:19+08:00
-author: "糸色先生"
 
-categories: ["C/C++"]
+categories: [
+    "C/C++",
+    "算法"
+    ]
 series: ["C/C++ 面试"]
 show_toc: true
 slug: "algorithm"

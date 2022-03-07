@@ -1,9 +1,11 @@
 ---
-title: "【转载】C++ 面试之数据结构"
+title: "【转载】C++ 开发必备之数据结构"
 date: 2022-01-14T20:28:54+08:00
-author: "糸色先生"
 
-categories: ["C/C++"]
+categories: [
+    "C/C++",
+    "数据结构"
+    ]
 series: ["C/C++ 面试"]
 show_toc: true
 slug: "data-structure"
