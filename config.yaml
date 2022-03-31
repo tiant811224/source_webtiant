@@ -1,13 +1,15 @@
 baseurl: "/"
 languageCode: "zh-cn"
 title: "罗泽勋"
-theme: "hugo-xmin"
+theme: "hugo-paper"
 googleAnalytics: "G-KDTTBGMLCQ"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+enableInlineShortcodes: true
 hasCJKLanguage: true
 enableEmoji: true
 footnotereturnlinkcontents: "↩"
 rssLimit: 100
+ignoreErrors: ["error-remote-getjson"]
 
 permalinks:
   note: "/note/:year/:month/:day/:slug/"
@@ -39,19 +41,17 @@ menu:
     - name: "分类"
       url: "/categories/"
       weight: 6
-    - name: "简历"
-      url: "/vitae/"
-      weight: 7
+    # - name: "简历"
+    #   url: "/vitae/"
+    #   weight: 7
 
 params:
+  # twitter: 'lzxqaq'
+  github: 'lzxqaq'
+  # instagram: 'lzxqaq'
   description: "糸色先生"
   footer: "&copy; [Zexun Luo](/) 2020 - 2022 "
   disqusURL: "/"
-  customJS:
-    - "js/center-img.js"
-    - "js/right-quote.js"
-    - "js/external-link.js"
-    - "js/alt-title.js"
   
   utteranc:
     enable: true
@@ -78,3 +78,24 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
