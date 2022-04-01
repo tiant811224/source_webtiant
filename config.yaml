@@ -1,15 +1,10 @@
 baseurl: "/"
 languageCode: "zh-cn"
-title: "罗泽勋"
-theme: "hugo-paper"
+title: "Zexun Luo | 罗泽勋"
+theme: hugo-theme-mini
 googleAnalytics: "G-KDTTBGMLCQ"
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
-enableInlineShortcodes: true
-hasCJKLanguage: true
-enableEmoji: true
-footnotereturnlinkcontents: "↩"
-rssLimit: 100
-ignoreErrors: ["error-remote-getjson"]
+defaultContentLanguage: zh
+paginate: 10
 
 permalinks:
   note: "/note/:year/:month/:day/:slug/"
@@ -19,83 +14,47 @@ permalinks:
 taxonomies:
   category: categories
   tag: tags
-  series: series
-
-menu:
-  main:
-    - name: "主页"
-      url: "/"
-      weight: 1
-    - name: "关于"
-      url: "/about/"
-      weight: 2
-    - name: "日志"
-      url: "/blog/"
-      weight: 3
-    - name: "编程"
-      url: "/post/"
-      weight: 4
-    - name: "收录"
-      url: "/collection/"
-      weight: 5
-    - name: "分类"
-      url: "/categories/"
-      weight: 6
-    # - name: "简历"
-    #   url: "/vitae/"
-    #   weight: 7
 
 params:
-  # twitter: 'lzxqaq'
-  github: 'lzxqaq'
-  # instagram: 'lzxqaq'
-  description: "糸色先生"
-  footer: "&copy; [Zexun Luo](/) 2020 - 2022 "
-  disqusURL: "/"
-  
-  utteranc:
-    enable: true
-    repo: "lzxqaq/site-comment"
-    issueTerm: "title"
-    theme: "github-light"
+  author: "罗泽勋"
+  bio: "我唯一知道的是我一无所知。"
+  description: "Zexun Luo's Blog"
+  avatarLink: /about
 
-  logo:
-    img: "/images/logo.png"
-    url: "/"
-    alt: "Zexun Luo"
-    tag: ""
+  enableToc: false
+  enableGoogleAnalytics: true
+  showToc: false
+  showPowerBy: false
+  copyright: '' 
+  enableRSS: true
+  hiddenPostSummaryInHomePage: true
 
-  author:
-    en: "Zexun Luo"
-    cn: "糸色先生"
+  tags: "归档"
+  archive: "博客"
+
+  # links:
+  #   ## e.g.
+  #   - name: "博客"
+  #     path: /posts
     
-
-blackfriday:
-    extensionsmask: ["noIntraEmphasis"]
-    fractions: false
+utteranc:
+  enable: true
+  repo: "lzxqaq/site-comment"
+  issueTerm: "title"
+  theme: "github-light"
 
 markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
   goldmark:
     renderer:
       unsafe: true
 
-privacy:
-  vimeo:
-    disabled: false
-    simple: true
-  twitter:
-    disabled: false
-    enableDNT: true
-    simple: true
-  instagram:
-    disabled: false
-    simple: true
-  youtube:
-    disabled: false
-    privacyEnhanced: true
+# social:
+#   github: "https://www.github.com/lzxqaq"
 
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
