@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+
+
 <section id="single">
     <h1 class="title">{{ .Title }}</h1>
 
@@ -19,6 +21,9 @@
         </span>
     </div>
 
+    {{ if .Params.show_music }} 
+  {{ partial "music.html" . }}
+  {{ end }}
     
     {{ if or .Site.Params.showToc .Params.showToc }}
         {{ partial "toc.html" . }}

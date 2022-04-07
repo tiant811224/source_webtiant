@@ -1,0 +1,17 @@
+<div class="container">
+    <div id="aplayer"></div>
+</div>
+<script>
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    autoplay: true,
+    audio: [
+        {
+            name: '{{.Params.song}}',
+            artist: '{{.Params.artist}}',
+            url: '{{.Params.songUrl}}',
+            cover: '{{.Params.songCover}}',
+        }
+    ]
+});
+</script>
