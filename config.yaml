@@ -19,7 +19,7 @@ params:
   author: "罗泽勋"
   bio: "我唯一知道的是我一无所知。"
   description: "Zexun Luo's Blog"
-  avatarLink: /about
+  avatarLink: /
 
   enableToc: false
   enableGoogleAnalytics: true
