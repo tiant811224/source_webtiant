@@ -38,8 +38,8 @@ params:
       path: /posts
     - name: "归档"
       path: /tags
-    - name: "事项"
-      path: /todos
+    # - name: "事项"
+    #   path: /todos
     - name: "关于"
       path: /about
 
