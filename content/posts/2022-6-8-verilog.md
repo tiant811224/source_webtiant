@@ -8,7 +8,7 @@ showToc: true
 参考资料：
 1. 《电子设计基础.数字部分》
 2. 《VerilogHDL程序设计与实践》
-3. 菜鸟教程： Verilog 教程<https://www.runoob.com/w3cnote/verilog-tutorial.html>
+3. 语法学习：菜鸟教程 <https://www.runoob.com/w3cnote/verilog-tutorial.html>
 4. 在线练习：<https://hdlbits.01xz.net/wiki/Wire>；题解：<https://zhuanlan.zhihu.com/c_1131528588117385216>
 # 1. 硬件描述语言 HDL
 
@@ -119,3 +119,108 @@ addr_temp[3:2] = addr[8:7] + 1'b1 ;
 ```
 
 ## 2.3 编译指令
+
+- \`define 宏定义， \`undef 取消宏定义
+- \`include ：将另一个 Verilog 文件内嵌进来
+- \`timescale ： \`timescale 编译指令将时间单位与实际时间相关联。例如
+```
+`timescale 1ns/100ps    //时间单位为1ns，精度为100ps，合法
+//`timescale 100ps/1ns  //不合法
+```
+
+## 2.4 连续赋值
+
+assign 全加器，用于对 wire 型变量进行赋值。
+例如：
+```
+wire      Cout, A, B ;
+assign    Cout  = A & B ;     //实现计算A与B的功能
+```
+- 左侧必须是一个标量或者线型向量，而不能是寄存器类型。
+- 右侧的类型没有要求，可以是标量或线型或存器向量，也可以是函数调用。
+- 只要 右侧 表达式的操作数有事件发生（值的变化）时，右侧 就会立刻重新计算，同时赋值给 左侧。
+
+## 2.5 时延
+
+连续赋值延时语句中的延时，用于控制任意操作数发生变化到语句左端赋予新值之间的时间延时。
+
+时延一般是不可综合的。
+例如
+```
+//普通时延，A&B计算结果延时10个时间单位赋值给Z
+wire Z, A, B ;
+assign #10    Z = A & B ;
+```
+
+## 2.6 过程结构
+
+一个模块中可以包含多个 initial 和 always 语句，但 2 种语句不能嵌套使用。这些语句在模块间并行执行，与其在模块的前后顺序没有关系。但是 initial 语句或 always 语句内部可以理解为是顺序执行的（非阻塞赋值除外）。每个 initial 语句或 always 语句都会产生一个独立的控制流，执行时间都是从 0 时刻开始。
+
+- initial语句：initial 语句从 0 时刻开始执行，只执行一次；initial 理论上来讲是不可综合的，多用于初始化、信号检测等。
+
+- always 语句：与 initial 语句相反，always 语句是重复执行的。always 语句块从 0 时刻开始执行其中的行为语句；当执行完最后一条语句后，便再次执行语句块中的第一条语句，如此循环反复。由于循环执行的特点，always 语句多用于仿真时钟的产生，信号行为的检测等。
+
+## 2.7 阻塞赋值、非阻塞赋值
+
+- 阻塞赋值：顺序执行，即下一条语句执行前，当前语句一定会执行完毕。 = 
+- 并行执行语句，即下一条语句的执行和当前语句的执行是同时进行的，它不会阻塞位于同一个语句块中后面语句的执行。<=
+
+## 2.8 时序控制
+
+### 2.8.1 边沿触发事件控制
+
+在 Verilog 中，事件是指某一个 reg 或 wire 型变量发生了值的变化。
+
+#### 一般事件控制
+
+- posedge 指信号发生边沿正向跳变
+- negedge 指信号发生负向边沿跳变
+
+#### 命名事件控制
+
+触发信号用 -> 表示。
+
+```
+实例
+event     start_receiving ;
+always @( posedge clk_samp) begin
+        -> start_receiving ;       //采样时钟上升沿作为时间触发时刻
+end
+ 
+always @(start_receiving) begin
+    data_buf = {data_if[0], data_if[1]} ; //触发时刻，对多维数据整合
+end
+```
+
+#### 敏感列表
+
+关键字 or 连接多个事件或信号。
+
+```
+//带有低有效复位端的D触发器模型
+always @(posedge clk or negedge rstn)    begin      
+//always @(posedge clk , negedge rstn)    begin      
+//也可以使用逗号陈列多个事件触发
+    if（! rstn）begin
+        q <= 1'b ;      
+    end
+    else begin
+        q <= d ;
+    end
+end
+```
+
+### 2.8.1 电平敏感事件控制
+
+使用关键字 wait 来等待某个条件为真，控制后面语句的执行。
+```
+实例
+initial begin
+    wait (start_enable) ;      //等待 start 信号
+    forever begin
+        //start信号使能后，在clk_samp上升沿，对数据进行整合
+        @(posedge clk_samp)  ;
+        data_buf = {data_if[0], data_if[1]} ;      
+    end
+end
+```
