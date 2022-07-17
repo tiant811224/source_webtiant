@@ -1,7 +1,7 @@
 ---
 title: "Java 容器"
 date: 2020-12-24T16:47:24+08:00
-author: "糸色先生"
+author: "lzx"
 tags: [
     "Java"
 ]

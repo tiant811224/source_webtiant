@@ -1,7 +1,7 @@
 ---
 title: "数字电路基础之 Verilog HDL"
 date: 2022-06-08T22:35:54+08:00
-author: "糸色先生"
+author: "lzx"
 showToc: true
 tags: ["eda"]
 

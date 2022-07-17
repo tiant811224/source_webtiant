@@ -1,7 +1,7 @@
 ---
 title: "栈和队列"
 date: 2021-12-16T21:34:19+08:00
-author: "糸色先生"
+author: "lzx"
 slug: "stack-queue"
 
 tags: ["数据结构"]

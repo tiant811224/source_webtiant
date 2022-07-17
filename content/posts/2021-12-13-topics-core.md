@@ -1,7 +1,7 @@
 ---
 title: "Qt 6 核心内部结构"
 date: 2021-12-13T08:00:25+08:00
-author: "糸色先生"
+author: "lzx"
 slug: "qt-core"
 tags: ["Qt"]
 series: ["Qt 核心"] 
