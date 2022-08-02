@@ -1,7 +1,7 @@
 ---
 title: "面向对象设计原则之单一职责原则"
 date: 2021-12-28T07:40:16+08:00
-author: "糸色先生"
+author: "lzx"
 
 tags: ["设计模式"]
 slug: "singleresponsibility"
