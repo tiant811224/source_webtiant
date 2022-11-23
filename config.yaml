@@ -39,6 +39,8 @@ params:
       path: /tags
     - name: "事项"
       path: /todos
+    - name: "菜谱"
+      path: /recipe
     - name: "关于"
       path: /about
 

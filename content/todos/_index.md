@@ -17,6 +17,8 @@
 4. 整理一份日常的三餐食谱。
 5. https://github.com/Kaiyiwing/qwerty-learner 锻炼单词拼写、发音。
 
+## 已完成
+
 
 ## 阅读计划
 
