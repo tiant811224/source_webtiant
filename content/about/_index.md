@@ -19,7 +19,7 @@
 ## 关注的博主
 
 * [谢益辉](https://yihui.org)
-* [袁凡](https://yuanfan.vercel.app)
+* [袁凡](https://yuanfan.rbind.io)
 
 ## 联系我
 * 微信：就在这一行下面的注释里，如果你知道怎么找的话。 (~￣▽￣)~
