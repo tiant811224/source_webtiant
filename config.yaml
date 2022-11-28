@@ -26,7 +26,7 @@ params:
   showToc: false
   showPowerBy: false
   copyright: '' 
-  enableRSS: true
+  enableRSS: false
   hiddenPostSummaryInHomePage: true
 
   tags: "归档"
@@ -35,8 +35,6 @@ params:
   links:
     - name: "博客"
       path: /posts
-    - name: "归档"
-      path: /tags
     - name: "事项"
       path: /todos
     - name: "菜谱"
