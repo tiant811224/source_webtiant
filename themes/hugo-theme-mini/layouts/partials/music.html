@@ -5,13 +5,18 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     autoplay: true,
+    loop: 'all',
+    preload: 'auto',
+    listFolded: false,
     audio: [
-        {
-            name: '{{.Params.song}}',
-            artist: '{{.Params.artist}}',
-            url: '{{.Params.songUrl}}',
-            cover: '{{.Params.songCover}}',
-        }
+        {{ range $s := .Params.songs }}
+            {
+                name: '{{$s.song}}',
+                artist: '{{$s.artist}}',
+                url: '{{$s.songUrl}}',
+                cover: '{{$s.songCover}}',
+            },
+        {{ end }}
     ]
 });
 </script>

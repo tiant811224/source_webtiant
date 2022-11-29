@@ -22,8 +22,8 @@
     </div>
 
     {{ if .Params.show_music }} 
-  {{ partial "music.html" . }}
-  {{ end }}
+    {{ partial "music.html" . }}
+    {{ end }}
     
     {{ if or .Site.Params.showToc .Params.showToc }}
         {{ partial "toc.html" . }}

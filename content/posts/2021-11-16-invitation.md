@@ -4,10 +4,11 @@ date: 2021-11-16T20:07:23+08:00
 
 
 show_music: true
-artist: "Alan Silvestri"
-song: "Forrest Gump Suite"
-songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Alan_Silvestri_Forrest_Gump_Suite2.mp3"
-songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/George_Davidson_Mariage_D_Amour.jpg"
+songs: 
+ - song: "Forrest Gump Suite"
+   artist: "Alan Silvestri"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Alan_Silvestri_Forrest_Gump_Suite2.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/George_Davidson_Mariage_D_Amour.jpg"
 
 ---
 ## The Invitation by Oriah

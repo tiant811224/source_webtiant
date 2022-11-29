@@ -12,13 +12,13 @@
 ## 待办事项
 
 1. https://algorithm-essentials.soulmachine.me，算法刷题。
-2. https://github.com/florinpop17/app-ideas，也许可以从这里找到一些有趣的项目来练练手。
-3. 整理一份常听的歌单。
-4. 整理一份日常的三餐食谱。
-5. https://github.com/Kaiyiwing/qwerty-learner 锻炼单词拼写、发音。
+1. https://github.com/florinpop17/app-ideas，也许可以从这里找到一些有趣的项目来练练手。
+1. https://github.com/Kaiyiwing/qwerty-learner 锻炼单词拼写、发音。
 
 ## 已完成
 
+1. 整理一份常听的[歌单](http://localhost:1313/sing)。
+1. 整理一份日常的三餐食谱。
 
 ## 阅读计划
 
