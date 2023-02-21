@@ -10,6 +10,9 @@ songs:
    songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Alan_Silvestri_Forrest_Gump_Suite2.mp3"
    songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/George_Davidson_Mariage_D_Amour.jpg"
 
+tags: [
+    "瞎看",
+]
 ---
 ## The Invitation by Oriah
 

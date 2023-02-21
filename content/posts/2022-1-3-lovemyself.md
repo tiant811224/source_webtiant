@@ -9,6 +9,9 @@ song: "Mariage D Amour"
 artist: "George Davidson"
 songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/George_Davidson_Mariage_D_Amour.mp3"
 
+tags: [
+    "瞎看",
+]
 ---
 
 > —— Charlie Chaplin 

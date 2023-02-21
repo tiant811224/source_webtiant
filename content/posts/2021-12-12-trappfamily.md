@@ -8,6 +8,9 @@ artist: "伊東恵里,森の木児童合唱团"
 songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/伊東恵里,森の木児童合唱团 - ドレミの歌.mp3"
 songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
 
+tags: [
+    "瞎看",
+]
 --- 
 ### 一
 

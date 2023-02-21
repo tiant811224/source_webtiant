@@ -1,5 +1,5 @@
 baseurl: "/"
-languageCode: "zh-cn"
+languageCode: en-us
 title: "Zexun Luo | 罗泽勋"
 theme: hugo-theme-mini
 googleAnalytics: "G-KDTTBGMLCQ"
@@ -29,18 +29,14 @@ params:
   enableRSS: false
   hiddenPostSummaryInHomePage: true
 
-  tags: "归档"
-  archive: "博客"
+  # tags: "归档"
+  # archive: "博客"
 
-  links:
-    - name: "博客"
-      path: /posts
-    - name: "事项"
-      path: /todos
-    - name: "菜谱"
-      path: /recipe
-    - name: "关于"
-      path: /about
+  # links:
+  #   - name: "归档"
+  #     path: /posts
+  #   - name: "关于"
+  #     path: /about
 
     
 utteranc:

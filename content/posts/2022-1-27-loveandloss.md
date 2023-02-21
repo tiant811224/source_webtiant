@@ -2,6 +2,9 @@
 title: "《Love and Loss》"
 date: 2022-01-27T00:19:44+08:00
 slug: "Loveandloss"
+tags: [
+    "瞎看",
+]
 ---
 
 > —— Steve Jobs
