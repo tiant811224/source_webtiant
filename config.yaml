@@ -29,14 +29,15 @@ params:
   enableRSS: false
   hiddenPostSummaryInHomePage: true
 
-  # tags: "归档"
-  # archive: "博客"
-
-  # links:
-  #   - name: "归档"
-  #     path: /posts
-  #   - name: "关于"
-  #     path: /about
+  links:
+    - name: "归档"
+      path: /posts
+    - name: "标签"
+      path: /tags
+    - name: "日常"
+      path: /todos
+    - name: "关于"
+      path: /about
 
     
 utteranc:

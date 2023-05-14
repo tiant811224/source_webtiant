@@ -9,14 +9,25 @@ const ap = new APlayer({
     preload: 'auto',
     listFolded: false,
     audio: [
-        {{ range $s := .Params.songs }}
-            {
-                name: '{{$s.song}}',
-                artist: '{{$s.artist}}',
-                url: '{{$s.songUrl}}',
-                cover: '{{$s.songCover}}',
-            },
+        {{ if .Params.songs }} 
+            {{ range $s := .Params.songs }}
+                {
+                    name: '{{$s.song}}',
+                    artist: '{{$s.artist}}',
+                    url: '{{$s.songUrl}}',
+                    cover: '{{$s.songCover}}',
+                },
+            {{ end }}        
         {{ end }}
+        {{ if .Params.song }} 
+                {
+                    name: '{{.Params.song}}',
+                    artist: '{{.Params.artist}}',
+                    url: '{{.Params.songUrl}}',
+                    cover: '{{.Params.songCover}}',
+                }
+        {{ end }}
+
     ]
 });
 </script>
