@@ -1,0 +1,72 @@
+baseurl: "/"
+languageCode: en-us
+title: "Zexun Luo | 罗泽勋"
+theme: hugo-theme-mini
+googleAnalytics: "G-KDTTBGMLCQ"
+defaultContentLanguage: zh
+paginate: 10
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+  blog: "/blog/:year/:month/:day/:slug/"
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  author: "罗泽勋"
+  bio: "我唯一知道的是我一无所知。"
+  description: "Zexun Luo's Blog"
+  avatarLink: /
+
+  enableToc: false
+  enableGoogleAnalytics: true
+  showToc: false
+  showPowerBy: false
+  copyright: '' 
+  enableRSS: false
+  hiddenPostSummaryInHomePage: true
+
+  links:
+    - name: "归档"
+      path: /posts
+    - name: "标签"
+      path: /tags
+    - name: "日常"
+      path: /todos
+    - name: "关于"
+      path: /about
+
+    
+utteranc:
+  enable: true
+  repo: "lzxqaq/site-comment"
+  issueTerm: "title"
+  theme: "github-light"
+
+markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+
+# social:
+#   github: "https://www.github.com/lzxqaq"
+
+  customCSS:
+    ## e.g.
+    # - css/custom.css # local css in `static/css/custom.css`
+    # - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css
+  customJS:
+    ## e.g.
+    # - js/custom.js # local js in `static/js/custom.js`
+    # - https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js # remote js
+
