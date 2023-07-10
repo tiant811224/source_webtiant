@@ -90,13 +90,12 @@ songs:
 1. 刺猬 《火车驶向云外，梦安魂于九霄》《生之响往》
 1. 朴树 《在希望的田野上》《NEW BOY》《生如夏花》《平凡之路》《那些花儿》《且听风吟》
 1. GALA 《追梦赤子心》
-1. 中国广播少儿合唱团 《让世界充满爱-幸福平安》
 
 ## 粤语
 
 1. 卢冠廷 《一生所爱》《泥路上》
-1. 张国荣 《风继续吹》《当爱已成往事》《春夏秋冬》《寂寞有害》《追》《我》《风再起时》
-1. 林子祥 《敢爱敢做》《究竟天有几高》《男儿当自强》《谁能明白我》《真的汉子》《成吉思汗》
+1. 张国荣 《当爱已成往事》《春夏秋冬》《追》《我》
+1. 林子祥 《敢爱敢做》《究竟天有几高》《谁能明白我》《成吉思汗》
 1. Beyond 《Amani》《情人》
 1. 梅艳芳 《似是故人来》
 1. 邓丽君 《我只在乎你》《南海姑娘》
@@ -107,7 +106,7 @@ songs:
 1. Tony Orlando and Dawn 《Tie a Yellow Ribbon Round the Ole Oak Tree》
 1. Shakin' Stevens 《Because I Love You》
 1. Don McLean 《And I Love You So》
-1. Alan Silvestri 《Forrest Gump Suite》
+<!-- 1. Alan Silvestri 《Forrest Gump Suite》 -->
 
 ## 日语
 

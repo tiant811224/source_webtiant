@@ -13,7 +13,12 @@ title: "日常"
 
 ## 待办事项
 
-暂无
+- [插件管理框架](https://github.com/lzxqaq/rtlcode/tree/master/src/libs/extensionsystem)
+- [界面整体布局](https://github.com/lzxqaq/rtlcode/tree/master/src/plugins/coreplugin)
+- [core 插件](https://github.com/lzxqaq/rtlcode/tree/master/src/plugins/coreplugin)
+- synthesis 插件
+- terminal 插件
+- diagram 插件
 
 ## 已完成
 
@@ -25,6 +30,8 @@ title: "日常"
 
 ## 日程安排
 
+暂无
+<!-- 
 #### 周一至周五：
 - 7:20am - 7:30am：起床、洗漱
 - 7:30am - 8:00am：运动
@@ -38,4 +45,4 @@ title: "日常"
 
 #### 周末：
 
-时间安排可以灵活调整，增加户外活动：爬山、羽毛球、购物等。
+时间安排可以灵活调整，增加户外活动：爬山、羽毛球、购物等。 -->

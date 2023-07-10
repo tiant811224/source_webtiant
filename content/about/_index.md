@@ -23,6 +23,4 @@ title: "关于"
 * [袁凡](https://yuanfan.rbind.io)
 
 ## 联系我
-* 微信：就在这一行下面的注释里，如果你知道怎么找的话。 (~￣▽￣)~
-<!-- * 微信号：BaiGei-Wan -->
 * 邮箱：[lzxqaq@163.com](mailto:lzxqaq@163.com) 
