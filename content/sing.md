@@ -4,50 +4,23 @@ title: 歌单
 show_music: true
 songs: 
 
- - song: "Forrest Gump Suite"
-   artist: "Alan Silvestri"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Alan_Silvestri_Forrest_Gump_Suite2.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/Alan_Silvestri_Forrest_Gump_Suite.jpg"
+ - song: "アルプスの少女ハイジ"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/HD_アルプスの少女ハイジ_OP.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
 
- - song: "Mariage d'Amour"
-   artist: "George Davidson" 
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/George_Davidson_Mariage_D_Amour.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/George_Davidson_Mariage_D_Amour.jpg"
+ - song: "愛になりたい"
+   artist: "工藤夕貴"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/工藤夕貴 - 愛になりたい.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/工藤夕貴-愛になりたい"
 
- - song: "堕落"
-   artist: "王菲"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/堕落-王菲.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/堕落-王菲.webp"
+ - song: "Perrine_Monogatari_Sin_Familia_Ending"
+   artist: ""
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Perrine_Monogatari_Sin_Familia_Ending.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
 
- - song: "火车驶向云外，梦安魂于九霄"
-   artist: "刺猬"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/火车驶向云外，梦安魂于九霄.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/生之响往.webp"
-
- - song: "追梦赤子心"
-   artist: "GALA"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/追梦赤子心.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/追梦赤子心.webp"
-
- - song: "让世界充满爱-幸福平安"
-   artist: "中央人民广播电台少年广播合唱团"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/中央人民广播电台少年广播合唱团 - 让世界充满爱-幸福平安(童声合唱).mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/让世界充满爱.webp"
-
- - song: "一生所爱"
-   artist: "卢冠廷,莫文蔚"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/一生所爱.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/一生所爱.webp"
-
- - song: "Amani"
-   artist: "Beyond"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Amani.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/amani.webp"
-
- - song: "情人"
-   artist: "Beyond"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/情人.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/amani.webp"
+ - song: "花咲く旅路"
+   artist: "原由子"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/原由子 - 花咲く旅路 (原由子1991.6.1 アルバム“MOTHER”より).mp3"
 
  - song: "And I Love You So"
    artist: "Don McLean"
@@ -59,28 +32,50 @@ songs:
    songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/vincent.mp3"
    songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/Don_McLean_And_I_Love_You_So.jpg"
 
- - song: "Its a Small World Its a Small"
-   artist: "Disney Classics"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Disney_Classics_It_s_a_Small_World_It_s_a_Small.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/Disney.jpeg"
+ - song: "情人"
+   artist: "Beyond"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/情人.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/amani.webp"
 
- - song: "アルプスの少女ハイジ"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/HD_アルプスの少女ハイジ_OP.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
+ - song: "Amani"
+   artist: "Beyond"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Amani.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/amani.webp"
 
- - song: "愛になりたい"
-   artist: "工藤夕貴"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/工藤夕貴 - 愛になりたい.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/工藤夕貴 - 愛になりたい"
+ - song: "一生所爱"
+   artist: "卢冠廷,莫文蔚"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/一生所爱.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/一生所爱.webp"
 
- - song: "Perrine_Monogatari_Sin_Familia_Ending"
-   artist: ""
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Perrine_Monogatari_Sin_Familia_Ending.mp3"
-   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
+ - song: "让世界充满爱-幸福平安"
+   artist: "中央人民广播电台少年广播合唱团"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/中央人民广播电台少年广播合唱团 - 让世界充满爱-幸福平安(童声合唱).mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/让世界充满爱.webp"
 
- - song: "花咲く旅路"
-   artist: "原由子"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/原由子 - 花咲く旅路 (原由子1991.6.1 アルバム“MOTHER”より).mp3"
+ - song: "追梦赤子心"
+   artist: "GALA"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/追梦赤子心.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/追梦赤子心.webp"
+
+ - song: "火车驶向云外，梦安魂于九霄"
+   artist: "刺猬"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/火车驶向云外，梦安魂于九霄.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/生之响往.webp"
+
+ - song: "堕落"
+   artist: "王菲"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/堕落-王菲.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/堕落-王菲.webp"
+
+ - song: "Mariage d'Amour"
+   artist: "George Davidson" 
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/George_Davidson_Mariage_D_Amour.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/George_Davidson_Mariage_D_Amour.jpg"
+
+ - song: "Forrest Gump Suite"
+   artist: "Alan Silvestri"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Alan_Silvestri_Forrest_Gump_Suite2.mp3"
+   songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/Alan_Silvestri_Forrest_Gump_Suite.jpg"
 
 ---
 
