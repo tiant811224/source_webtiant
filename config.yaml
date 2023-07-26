@@ -1,12 +1,12 @@
-baseurl: /
-languageCode: zh-cn
-title: 沙加
-theme: hugo-ivy
+baseurl: "https://lzxqaq.com"
+languageCode: "zh-cn"
+title: "Zexun Luo | 罗泽勋"
+theme: "hugo-ivy"
 googleAnalytics: "G-KDTTBGMLCQ"
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 preserveTaxonomyNames: true
-footnotereturnlinkcontents: ↩
+footnotereturnlinkcontents: "↩"
 enableGitInfo: true
 
 permalinks:
@@ -18,23 +18,22 @@ taxonomies:
   category: categories
   tag: tags
 
-
 menu:
   main:
     - name: "首页"
       url: "/"
       weight: 1
     - name: "归档"
-      url: "/posts"
+      url: "/posts/"
       weight: 2
     - name: "日常"
-      url: "/todos"
+      url: "/todos/"
       weight: 3      
     - name: "关于"
       url: "/about/"
       weight: 4
     - name: "标签"
-      url: "/tags"
+      url: "/tags/"
       weight: 5
     - name: "订阅"
       url: "/index.xml"
@@ -45,6 +44,41 @@ params:
   highlightjsLang: ["latex"]
   highlightjsTheme: "github"
   highlightjsVersion: "11.7.0"
+  customJS:
+    - "comment-utils.js"
+    - "fix-toc.js"
+    - "center-img.js"
+    - "right-quote.js"
+    - "fix-footnote.js"
+    - "math-code.js"
+    - "hash-notes.js"
+    - "toggle-notes.js"
+    - "post-nav.js"
+    - "external-link.js"
+    - "alt-title.js"
+    - "heading-anchor.js"
+    - "key-buttons.js"
+  customCSS:
+    - "key-buttons.css"
+
+  logo:
+    en:
+      img: "/images/logo.png"
+      url: "/"
+      alt: "Yihui Xie"
+      tag: ""
+      
+  author:
+    en: "Zexun Luo"
+    cn: "罗泽勋"
+
+  lang:
+    edit:
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
 
 markup:
   highlight:
@@ -52,3 +86,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      autoHeadingIDType: blackfriday
+  tableOfContents:
+    startLevel: 1
+
