@@ -10,7 +10,7 @@ songs:
    songCover: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/世界名作劇場.jpg"
 
 tags: [
-    "瞎看",
+    "阅读",
 ]
 --- 
 ### 一

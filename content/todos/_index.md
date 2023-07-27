@@ -8,21 +8,14 @@ title: "日常"
 开始终结，总是没变改。天边的你，漂泊白云外。
 ```
 
-此页面包含我的日常事项，我尝试每天更新。
+此页面包含我的日常事项，我会不定时更新。
 
 
 ## 待办事项
 
-- [插件管理框架](https://github.com/lzxqaq/rtlcode/tree/master/src/libs/extensionsystem)
-- [界面整体布局](https://github.com/lzxqaq/rtlcode/tree/master/src/plugins/coreplugin)
-- [core 插件](https://github.com/lzxqaq/rtlcode/tree/master/src/plugins/coreplugin)
-- synthesis 插件
-- terminal 插件
-- diagram 插件
+- 寻找替代 Yosys 的开源 Verilog parser。
 
-## 已完成
-
-暂无
+- 了解 Asic 设计全流程设计到的开源工具，也许可以做点什么？
 
 ## 阅读计划
 

@@ -35,8 +35,6 @@ menu:
     - name: "标签"
       url: "/tags/"
       weight: 5
-    - name: "订阅"
-      url: "/index.xml"
 
 params:
   description: "我唯一知道的是我一无所知。"
@@ -65,7 +63,7 @@ params:
     en:
       img: "/images/logo.png"
       url: "/"
-      alt: "Yihui Xie"
+      alt: "Zexun Luo"
       tag: ""
       
   author:
