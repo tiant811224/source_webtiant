@@ -61,11 +61,14 @@ params:
 
   logo:
     en:
-      img: "/images/logo.png"
+      img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png"
       url: "/"
       alt: "Zexun Luo"
       tag: ""
-      
+  
+  cover:
+    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/cover.jpg"
+
   author:
     en: "Shaka"
     cn: "沙加"
