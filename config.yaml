@@ -1,6 +1,6 @@
 baseurl: "https://lzxqaq.com"
 languageCode: "zh-cn"
-title: "Zexun Luo | 罗泽勋"
+title: "Shaka| 沙加"
 theme: "hugo-ivy"
 googleAnalytics: "G-KDTTBGMLCQ"
 disqusShortname: ""
@@ -67,8 +67,8 @@ params:
       tag: ""
       
   author:
-    en: "Zexun Luo"
-    cn: "罗泽勋"
+    en: "Shaka"
+    cn: "沙加"
 
   lang:
     edit:
