@@ -1,7 +1,7 @@
 ---
 title: "面向对象设计原则之开闭原则"
 date: 2021-12-28T08:07:08+08:00
-author: "lzx"
+author: "Shaka"
 
 tags: ["设计模式"]
 slug: "oop"

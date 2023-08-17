@@ -1,7 +1,7 @@
 ---
 title: "线性表"
 date: 2021-12-16T12:43:02+08:00
-author: "lzx"
+author: "Shaka"
 slug: "linearlist"
 
 tags: ["数据结构"]

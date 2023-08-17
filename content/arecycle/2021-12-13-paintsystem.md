@@ -1,7 +1,7 @@
 ---
 title: "Qt6 绘制基础"
 date: 2021-12-13T21:28:59+08:00
-author: "lzx"
+author: "Shaka"
 slug: "paintsystem" 
 series: ["Qt 绘制系统"] 
 draft: true

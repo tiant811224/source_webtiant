@@ -1,7 +1,7 @@
 ---
 title: "Java 并发"
 date: 2021-01-09T10:50:16+08:00
-author: "lzx"
+author: "Shaka"
 tags: [
     "Java"
 ]
