@@ -1,7 +1,7 @@
 ---
 title: 歌单
 
-show_music: true
+show_music: false
 songs: 
 
  - song: "アルプスの少女ハイジ"
@@ -20,7 +20,7 @@ songs:
 
  - song: "花咲く旅路"
    artist: "原由子"
-   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/原由子 - 花咲く旅路 (原由子1991.6.1 アルバム“MOTHER”より).mp3"
+   songUrl: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/原由子 - 花咲く旅路 (原由子199- 6.1 アルバム“MOTHER”より).mp3"
 
  - song: "And I Love You So"
    artist: "Don McLean"
@@ -79,49 +79,53 @@ songs:
 
 ---
 
-## 国语
+- The Cranberries 《Dreams》《Zombie》《Ordinary Day》《What's Up》《When You're Gone》《Dying In the Sub》
+- Richard Clayderman 《梦中的婚礼》
+- Starship 《Nothing's Gonna Stop Us Now》
+- Tony Orlando and Dawn 《Tie a Yellow Ribbon Round the Ole Oak Tree》
+- Shakin' Stevens 《Because I Love You》
+- Don McLean 《And I Love You So》
+- Alan Silvestri 《Forrest Gump Suite》
+- Dana Winner 《Moonlight Shadow》
+- Enya 《One By One》
+- Carpenter 《Top Of The World》
+- Simon & Garfunkel 《The Sounds Of Silence》
+- 
 
-1. 王菲 《矜持》《不爱我的我不爱》《当时的月亮》《堕落》《浮躁》《天空》《香奈儿》《流年》
-1. 刺猬 《火车驶向云外，梦安魂于九霄》《生之响往》
-1. 朴树 《在希望的田野上》《NEW BOY》《生如夏花》《平凡之路》《那些花儿》《且听风吟》
-1. GALA 《追梦赤子心》
+- 朴树 《在希望的田野上》《NEW BOY》《生如夏花》《平凡之路》《那些花儿》《且听风吟》《我去2000年》
+- 许巍《情人》
+- 王菲 《矜持》《不爱我的我不爱》《当时的月亮》《堕落》《浮躁》《天空》《香奈儿》《流年》
+- 刺猬 《火车驶向云外，梦安魂于九霄》《生之响往》
+- GALA 《追梦赤子心》
+- 卢冠廷 《一生所爱》《泥路上》
+- 张国荣 《当爱已成往事》《春夏秋冬》《追》《我》
+- 林子祥 《敢爱敢做》《究竟天有几高》《谁能明白我》《成吉思汗》
+- Beyond 《Amani》《情人》
+- 梅艳芳 《似是故人来》
+- 邓丽君 《我只在乎你》《南海姑娘》
 
-## 粤语
-
-1. 卢冠廷 《一生所爱》《泥路上》
-1. 张国荣 《当爱已成往事》《春夏秋冬》《追》《我》
-1. 林子祥 《敢爱敢做》《究竟天有几高》《谁能明白我》《成吉思汗》
-1. Beyond 《Amani》《情人》
-1. 梅艳芳 《似是故人来》
-1. 邓丽君 《我只在乎你》《南海姑娘》
-
-
-## 英语
-
-1. Tony Orlando and Dawn 《Tie a Yellow Ribbon Round the Ole Oak Tree》
-1. Shakin' Stevens 《Because I Love You》
-1. Don McLean 《And I Love You So》
-<!-- 1. Alan Silvestri 《Forrest Gump Suite》 -->
-
-## 日语
-
-1. 邓丽君 [《空巷》](https://music.163.com/song?id=26608735)
-1. 山口百惠 [《秋樱》](https://music.163.com/song?id=669327)[《谢谢我的爱人》](https://music.163.com/song?id=22740367)
-1. 長渕剛 [《とんぼ》](https://music.163.com/song?id=35407846)
-1. 勝生真沙子 / 川村万梨阿 / 松岡洋子 / 白鳥由里 / 渡辺菜生子 / 石川寬美 / 鈴木砂織 / 安達忍[《山のごちそう》](https://music.163.com/song?id=4986224)
-1. 伊東恵里 / 森の木児童合唱团 [《ドレミの歌》](https://music.163.com/song?id=4986213)
-1. 潘恵子 [《裸足のフローネ》](https://music.163.com/song?id=34077995)
-1. 五輪真弓 [《リバィバル》](https://music.163.com/song?id=566499)
-1. 小田和正 [《ラブストーリーは突然に》](https://music.163.com/song?id=33497228)
-1. 荻野目洋子 [《ダンシング・ヒーロー (Eat You Up)》](https://music.163.com/song?id=26130819)
-1. つじあやの [《猫になりたい 》](https://music.163.com/#/song?id=28461702)
-1. 石野真子 [《ガラスの観覧车 bonus track》](https://music.163.com/song?id=569745)
-1. 来生たかお [《Goodbye day》](https://music.163.com/song?id=454180)
-1. 島倉千代子 [《人生いろいろ》](https://music.163.com/song?id=4908985)  
-1. 橋幸夫 [《いつでも夢を》](https://music.163.com/song?id=27676599)  
-1. 夏川りみ [《花》](https://music.163.com/song?id=29017267)
-1. 工藤夕貴 [《愛になりたい》](https://music.163.com/song?id=492151907)
-1. 大和田りつこ [《きこえるかしら》](https://music.163.com/song?id=41632297)
-1. 伊東恵里 [《両手を広げて》](https://music.163.com/song?id=4986214) [《ほほえみの魔法》](https://music.163.com/song?id=4986215)
-1. 堀内孝雄 [《竹とんぼ》](https://music.163.com/song?id=423841)
+- 松山千春 《在天际以及大地之间》
+- 谷村新司 《浪漫鉄道 (蹉跌篇)》
+- mammy Sino 《村落之秋》
+- フォレスタ 《故乡的天空/深红色的秋天》
+- 宗次郎 《故乡的原风景》
+- 邓丽君 [《空巷》](https://music.163.com/song?id=26608735)
+- 山口百惠 [《秋樱》](https://music.163.com/song?id=669327)[《谢谢我的爱人》](https://music.163.com/song?id=22740367)
+- 長渕剛 [《とんぼ》](https://music.163.com/song?id=35407846)
+- 勝生真沙子 / 川村万梨阿 / 松岡洋子 / 白鳥由里 / 渡辺菜生子 / 石川寬美 / 鈴木砂織 / 安達忍[《山のごちそう》](https://music.163.com/song?id=4986224)
+- 伊東恵里 / 森の木児童合唱团 [《ドレミの歌》](https://music.163.com/song?id=4986213)
+- 潘恵子 [《裸足のフローネ》](https://music.163.com/song?id=34077995)
+- 五輪真弓 [《リバィバル》](https://music.163.com/song?id=566499)
+- 小田和正 [《ラブストーリーは突然に》](https://music.163.com/song?id=33497228)
+- 荻野目洋子 [《ダンシング・ヒーロー (Eat You Up)》](https://music.163.com/song?id=26130819)
+- つじあやの [《猫になりたい 》](https://music.163.com/#/song?id=28461702)
+- 石野真子 [《ガラスの観覧车 bonus track》](https://music.163.com/song?id=569745)
+- 来生たかお [《Goodbye day》](https://music.163.com/song?id=454180)
+- 島倉千代子 [《人生いろいろ》](https://music.163.com/song?id=4908985)  
+- 橋幸夫 [《いつでも夢を》](https://music.163.com/song?id=27676599)  
+- 夏川りみ [《花》](https://music.163.com/song?id=29017267)
+- 工藤夕貴 [《愛になりたい》](https://music.163.com/song?id=492151907)
+- 大和田りつこ [《きこえるかしら》](https://music.163.com/song?id=41632297)
+- 伊東恵里 [《両手を広げて》](https://music.163.com/song?id=4986214) [《ほほえみの魔法》](https://music.163.com/song?id=4986215)
+- 堀内孝雄 [《竹とんぼ》](https://music.163.com/song?id=423841)
 
