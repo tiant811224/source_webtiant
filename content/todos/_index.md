@@ -11,12 +11,32 @@ title: "日常"
 ```
 
 ## 待办事项
-- [CMake 完整使用教程](https://www.ljjyy.com/tags/cmake/)
-- 
+
+
+- all-in-one project
+- 打字记单词 https://qwerty.kaiyi.cool/
+- 多邻国英语 https://www.duolingo.cn/
+- 吉他练习 https://zhuanlan.zhihu.com/p/166558383
 
 ## 阅读计划
 
-暂无
+- 程序员延寿指南 https://github.com/geekan/HowToLiveLonger
+- 程序员在家做饭方法指南 https://github.com/Anduin2017/HowToCook
+- 人体系统调优不完全指南 https://github.com/zijie0/HumanSystemOptimization
+- 英语进阶指南 https://github.com/byoungd/English-level-up-tips
+- CMake 完整使用教程 https://www.ljjyy.com/tags/cmake/
+- CMake 学习语法 https://github.com/SFUMECJF/cmake-examples-Chinese
+- 计算机基础八股文 https://github.com/xiaolincoder/CS-Base
+- C++ 并发编程实战 https://github.com/xiaoweiChen/CPP-Concurrency-In-Action-2ed-2019；笔记 https://github.com/xuyicpp/multi_threading
+- 品读 Linux 0.11 核心代码 https://github.com/dibingfa/flash-linux0.11-talk
+- Hello 算法 https://github.com/krahets/hello-algo
+- C++那些事 https://github.com/Light-City/CPlusPlusThings#c141720
+- [C++ 核心知识点](https://camo.githubusercontent.com/b6821ba76bf05faa85ca662a8aa4021b2c4ed1d575456c4d7f9073d12c126c18/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f726f6e6777656968652f496d616765486f737430312f677a682f4350504e6f7465732d6865726f6e677765692e706e67)
+- 后端开发进阶指南 https://github.com/balloonwj/CppGuide
+- 后台开发核心知识 https://github.com/linw7/Skill-Tree
+- Linux C/C++ 后台开发 面试题目 https://github.com/zouxiaobo/interview_back_end
+- C/C++ 技术面试基础知识总结 https://github.com/huihut/interview
+- 清华大学计算机系课程攻略 https://github.com/PKUanonym/REKCARC-TSC-UHT
 
 ## 日程安排
 
