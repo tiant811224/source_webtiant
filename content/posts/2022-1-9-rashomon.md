@@ -7,6 +7,9 @@ tags: [
 ]
 ---
 
+![img](https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/costumes/chez-la-marchande-de-pavots-1920-fashion-illustration-in-high-resolution-by-george-barbier-original-from-the-beinecke-rare-book--manuscript-library-digitally-enhanced-by-rawpixel_50805758581_o.jpg)
+
+
 > 乞丐：（大笑）这倒像是是实话了。
 
 > 砍柴人：我可不撒谎，是我亲眼看见来的。

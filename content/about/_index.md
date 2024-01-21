@@ -13,6 +13,8 @@ title: "关于"
 
 - 游戏：《CS:GO》、《一小时人生》、《月圆之夜》、《光遇》。
 
+![img](https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/costumes/minhuit--ou-l39appartement-a-la-mode-plate-no-7-1920-fashion-illustration-in-high-resolution-by-george-barbier-original-from-the-beinecke-rare-book--manuscript-library-digitally-enhanced-by-rawpixel_50805875302_o.jpg)
+
 ## 建站初衷
 
 通过博文形式记录、分享个人工作及生活，帮助以后遇到同类问题的自己和网友参考使用。

@@ -5,6 +5,7 @@ slug: "thoughtsondeath"
 tags: [
     "阅读",
 ]
+draft: true
 ---
 
 > My third story is about death.
