@@ -31,6 +31,7 @@ title: "关于"
 
 * [Github](https://github.com/lzxqaq) ：这是我的 Github 仓库地址。
 * [Gitee](https://gitee.com/lzxqaq) ：这是我的 Gitee 仓库地址。
+* [EasyFormal](https://easyformal.com) ：Formal 学习记录。
 
 ## 关注的博主
 
