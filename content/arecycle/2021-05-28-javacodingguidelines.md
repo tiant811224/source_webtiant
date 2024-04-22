@@ -81,4 +81,3 @@ draft: true
         else {
             System.out.printLn("ok");
         }
-    }
