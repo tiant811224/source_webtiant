@@ -1,0 +1,94 @@
+baseurl: "https://lzxqaq.com"
+languageCode: "zh-cn"
+title: "Shaka| 沙加"
+theme: "hugo-ivy"
+googleAnalytics: "G-KDTTBGMLCQ"
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+preserveTaxonomyNames: true
+footnotereturnlinkcontents: "↩"
+enableGitInfo: true
+
+permalinks:
+  note: /note/:year/:month/:day/:slug/
+  post: /post/:year/:month/:day/:slug/
+  blog: /blog/:year/:month/:day/:slug/
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: "首页"
+      url: "/"
+      weight: 1
+    - name: "归档"
+      url: "/posts/"
+      weight: 2
+    - name: "日常"
+      url: "/todos/"
+      weight: 3      
+    - name: "关于"
+      url: "/about/"
+      weight: 4
+    - name: "标签"
+      url: "/tags/"
+      weight: 5
+
+params:
+  description: "我唯一知道的是我一无所知。"
+  footer: "&copy; [Zexun Luo](https://lzxqaq.com) 2020-{Year} | [Github](https://github.com/lzxqaq)"
+  highlightjsLang: ["latex"]
+  highlightjsTheme: "github"
+  highlightjsVersion: "11.7.0"
+  customJS:
+    - "comment-utils.js"
+    - "fix-toc.js"
+    - "center-img.js"
+    - "right-quote.js"
+    - "fix-footnote.js"
+    - "math-code.js"
+    - "hash-notes.js"
+    - "toggle-notes.js"
+    - "post-nav.js"
+    - "external-link.js"
+    - "alt-title.js"
+    - "heading-anchor.js"
+    - "key-buttons.js"
+  customCSS:
+    - "key-buttons.css"
+
+  logo:
+    en:
+      img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png"
+      url: "/"
+      alt: "Zexun Luo"
+      tag: ""
+  
+  cover:
+    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/costumes/la-voie-lacte-robe-et-manteau-pour-le-soir-de-worth-1921-fashion-illustration-in-high-resolution-by-george-barbier-original-from-the-rijksmuseum-digitally-enhanced-by-rawpixel_50805758336_o.jpg"
+
+  author:
+    en: "Shaka"
+    cn: "沙加"
+
+  lang:
+    edit:
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      autoHeadingIDType: blackfriday
+  tableOfContents:
+    startLevel: 1
+
