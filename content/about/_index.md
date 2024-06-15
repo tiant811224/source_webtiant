@@ -5,13 +5,11 @@ title: "关于"
 
 ## 我是谁
 
-一个在深圳工作的广州人。我学计算机专业出身，兴趣和职业都是写代码。
+我是一名软件工程师，我对技术性的东西很感兴趣，热衷于通过编程解决实际问题。我对开源抱有热情，是一名 Arch 虔诚教徒。
 
-- 动漫：《崔普一家物语》、《红发安妮》、《长腿叔叔》等作品。
+我的兴趣爱好很广泛，喜欢运动，包括羽毛球、篮球、网球，喜欢玩游戏、烹饪、写博客，以及翻别人的博客。除此之外，我还是一名理性的理想主义者。
 
-- 听歌：这是我常听的[歌单](/sing)。
-
-- 游戏：《CS:GO》、《一小时人生》、《月圆之夜》、《光遇》。
+前路漫漫，何处是吾乡？且看我慢慢地寻找自己的答案。
 
 ![img](https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/costumes/minhuit--ou-l39appartement-a-la-mode-plate-no-7-1920-fashion-illustration-in-high-resolution-by-george-barbier-original-from-the-beinecke-rare-book--manuscript-library-digitally-enhanced-by-rawpixel_50805875302_o.jpg)
 
@@ -35,10 +33,11 @@ title: "关于"
 
 ## 关注的博主
 
-* [谢益辉](https://yihui.org)：useR，神人
-* [袁凡](https://yuanfan.rbind.io)：小说，真实
-* [罗翔](https://space.bilibili.com/517327498)：法律，教育
-* [DIYgod](https://diygod.cc/)：开源，可爱
-* [来唧唧歪歪](https://www.ljjyy.com)：安全，扫地僧
+* [谢益辉](https://yihui.org)
+* [袁凡](https://yuanfan.rbind.io)
+* [罗翔](https://space.bilibili.com/517327498)
+* [DIYgod](https://diygod.cc/)
+* [来唧唧歪歪](https://www.ljjyy.com)
+
 ## 联系我
 * 邮箱：[lzxqaq@163.com](mailto:lzxqaq@163.com) 
