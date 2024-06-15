@@ -3,12 +3,17 @@ title: "日常"
 
 ---
 
+    不要温顺地走进那个良夜 
+    被黑暗吞噬地垂暮迸发着惨淡  
+    怒斥，怒斥那光明的消逝  
+    我们终将知道黑暗有理  
+    但仍想闪耀残光  
+    不要温顺地走进那个良夜  
+
+----------------- 
+
 此页面包含我的日常事项，我会不定时更新。
 
-```
-从前现在，过去再不来。红红落叶，长埋尘土内。
-开始终结，总是没变改。天边的你，漂泊白云外。
-```
 
 ![img](https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/costumes/au-revoir-1920-fashion-illustration-in-high-resolution-by-george-barbier-original-from-the-beinecke-rare-book--manuscript-library-digitally-enhanced-by-rawpixel_50805758536_o.jpg)
 
