@@ -61,7 +61,7 @@ params:
 
   logo:
     en:
-      img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/logo.png"
+      img: "https://cdn.jsdelivr.net/gh/lzxqaq/source_lzxqaq@master/static/images/logo.png"
       url: "/"
       alt: "Zexun Luo"
       tag: ""
