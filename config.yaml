@@ -61,13 +61,13 @@ params:
 
   logo:
     en:
-      img: "https://cdn.jsdelivr.net/gh/lzxqaq/source_lzxqaq@master/static/images/logo.png"
+      img: "https://cdn.jsdelivr.net/gh/lzxqaq/source_lzxqaq@master/static/images/logo2.png"
       url: "/"
       alt: "Zexun Luo"
       tag: ""
   
   cover:
-    img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/costumes/la-voie-lacte-robe-et-manteau-pour-le-soir-de-worth-1921-fashion-illustration-in-high-resolution-by-george-barbier-original-from-the-rijksmuseum-digitally-enhanced-by-rawpixel_50805758336_o.jpg"
+    img: "https://cdn.jsdelivr.net/gh/lzxqaq/source_lzxqaq@master/static/images/gb.jpg"
 
   author:
     en: "Shaka"
